@@ -1,2 +1,2 @@
-information-board
+Information Board
 =================
