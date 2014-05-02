@@ -1,0 +1,530 @@
+@charset "utf-8";
+/*
+Theme Name: JW
+Author: Diego Téliz - contacto@diegoteliz.com
+Author URI: http://aero.com.uy/
+Description: JW Billboard app.
+Version: 1.0
+*/
+
+/* ==============================================================
+						-- CONTENTS --
+
+1.	Reset default browser CSS
+
+2.	General
+	- General tags
+	- Structure
+
+3.	Home
+	- Header
+	- Intro
+
+4.	About
+	
+
+7. 	Colors
+	- Violet
+		- #58215F (88,33,95)
+		- #4A0068
+	- Grey
+		- #EBEBEB
+
+============================================================== */
+
+
+/* 1. Reset default browser CSS
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	background: #FFF;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+/* 2. General
+-------------------------------------------------------------- */
+
+/* General tags */
+body {
+	color: #000;
+	font: 12px 'Open Sans', 'Quicksand', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h1 a {
+	color: #FFF;
+	font: 400 1.6em 'Quicksand', sans-serif;
+	padding: 16px 60px 16px 25px;
+}
+h3,
+h3 a {
+	background: #CCC;
+	color: #FFF;
+	font: 600 1.2em 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+h4,
+h4 a {
+	color: #000;
+	font: 300 2em 'Open Sans', sans-serif;
+}
+h5,
+h5 a {
+	color: #000;
+	font: 400 1.6em 'Open Sans', sans-serif;
+	padding: 20px 0 0;
+}
+a {
+	color: #4A0068;
+	font: 600 1em 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	color: #333;
+	font: 1.2em 'Open Sans', sans-serif;
+	padding: 8px 0;
+}
+header.title {
+	background: #CCC;
+	position: fixed;
+		top: 0;
+	width: 100%;
+	z-index: 3;
+}
+header.title h1 {
+	float: left;
+}
+#nav-menu {
+	background: url('img/btn-menu.png') no-repeat center center;
+	cursor: pointer;
+	display: inline-block;
+	height: 56px;
+	float: right;
+	width: 56px;
+}
+
+
+/* Structure */
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1024px;
+}
+#dinamic-preloader {
+	background: #FFF url('img/preloader.gif') no-repeat center center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+}
+.list {
+	margin: 60px 0 0;
+}
+.list-item {
+	border-bottom: 1px solid #E4E4E4;
+	padding: 10px 25px;
+	position: relative;
+}
+
+/* Side Menu */
+#side-menu {
+	background: #336CA6;
+	height: 100%;
+	padding-top: 60px;
+	position: absolute;
+		top: 0;
+		left: 0;
+	transition: all 0.5s ease 0s;
+	transform: translate3d(-100%, 0px, 0px);
+	visibility: hidden;
+	width: 300px;
+	z-index: 2;
+}
+#side-menu.switch-menu {
+	transform: translate3d(0px, 0px, 0px);
+	visibility: visible;
+}
+#side-menu-list li a {
+	box-shadow: 0 -1px rgba(0, 0, 0, 0.2) inset;
+	color: #FFF;
+	display: block;
+	font: 400 1.6em 'Open Sans', sans-serif;
+	/*padding: 20px 0 0;*/
+	padding: 15px 25px;
+}
+#side-menu-list li:first-child > a {
+ 	box-shadow: 0 -1px rgba(0, 0, 0, 0.2) inset, 0 1px rgba(0, 0, 0, 0.2) inset;
+}
+#side-menu-list li a:hover {
+	background: #295685;
+	box-shadow: none;
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+}
+
+
+/* #. Home
+-------------------------------------------------------------- */
+header.title.home {
+	background: #6F0000;
+}
+#home-title {
+	font: 400 1.6em 'Quicksand', sans-serif;
+	padding: 16px 25px;
+}
+#billboard-list {
+	margin: 80px 0 0;
+	overflow: hidden;
+}
+.billboard-item {
+	background: #FFF;
+	float: left;
+	height: 185px;
+	width: 25%;
+}
+.billboard-link {
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+}
+.billboard-link:hover {
+	text-decoration: none;
+}
+.billboard-img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+.billboard-title {
+	font: 600 1.2em 'Open Sans', sans-serif;
+}
+
+
+/* #. Grupos
+-------------------------------------------------------------- */
+header.title.grupos {
+	background: #0072C6;
+}
+.grupo-salida .date {
+	color: #0072C5;
+	font: 600 1.2em 'Open Sans', sans-serif;
+}
+.grupo-salida .responsible {
+	color: #717171;
+	font: 300 1.1em 'Open Sans', sans-serif;
+}
+.grupo-salida .time {
+	color: #000;
+	font: 400 1.25em 'Open Sans', sans-serif;
+	position: absolute;
+		right: 25px;
+		top: 50px;
+}
+
+
+/* #. Sonido y Acomodadores
+-------------------------------------------------------------- */
+header.title.sonido {
+	background: #A40000;
+}
+.list-item.sonido-item.pair {
+	background: #FCFCFC;
+}
+.sonido-item p span.subtitle {
+	color: #4A0000;
+	font-weight: 600;
+}
+
+
+/* #. Anuncios
+-------------------------------------------------------------- */
+header.title.anuncios {
+	background: #585858;
+}
+
+
+/* #. Escuela del Ministerio Teocrático
+-------------------------------------------------------------- */
+header.title.emt {
+	background: #FE0058;
+}
+.emt-item {
+	padding: 25px 25px 15px;
+}
+.emt-item .sala {
+	border-bottom: 1px dotted #DDD;
+	color: #FE0058;
+	font: 600 1em 'Open Sans', sans-serif;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.emt-item .asignacion {
+	color: #506A83;
+	font: 400 1.3em 'Open Sans', sans-serif;
+	padding-top: 20px;
+}
+.emt-item .info {
+	color: #717171;
+	font: italic 300 1.2em 'Open Sans', sans-serif;
+}
+
+
+/* #. EBC y Reunión de Servicio
+-------------------------------------------------------------- */
+header.title.rs {
+	background: #CB8D1B;
+}
+.rs-item {
+	padding: 25px 25px 15px;
+}
+.rs-item.pair {
+	background: #FCFCFC;
+}
+.rs-item .asignacion {
+	color: #545C6B;
+	font: 400 1.3em 'Open Sans', sans-serif;
+	padding-top: 10px;
+}
+.rs-item .info {
+	color: #717171;
+	font: italic 300 1.2em 'Open Sans', sans-serif;
+}
+
+
+/* #. Discurso Bíblico
+-------------------------------------------------------------- */
+header.title.discurso {
+	background: #8B0195;
+}
+.discurso-item .presidente {
+	color: #545C6B;
+	font: 400 1.2em 'Open Sans', sans-serif;
+	padding: 15px 0 0;
+}
+.discurso-item .tema {
+	color: #8B0195;
+	font: 300 1.8em 'Open Sans', sans-serif;
+	padding: 10px 0 3px;
+}
+.discurso-item .orador {
+	color: #545C6B;
+	font: 600 1.2em 'Open Sans', sans-serif;
+}
+.discurso-item .congregacion {
+	color: #545C6B;
+	font: 300 1.2em 'Open Sans', sans-serif;
+	padding: 0 0 5px;
+}
+
+/* #. Estudio de la Atalaya
+-------------------------------------------------------------- */
+header.title.atalaya {
+	background: #00ACEE;
+}
+
+.atalaya-item .conductor,
+.atalaya-item .lector {
+	color: #545C6B;
+	font: 400 1.3em 'Open Sans', sans-serif;
+	padding: 0 0 5px;
+}
+.atalaya-item .tema {
+	color: #717171;
+	font: italic 300 1.8em 'Open Sans', sans-serif;
+	padding: 12px 0 3px;
+}
+.atalaya-item .link {
+	padding: 0 0 15px;
+}
+.atalaya-item .link a {
+	color: #00ACEE;
+	font: italic 400 1.3em 'Open Sans', sans-serif;
+}
+
+
+/* #. Grupos de Congregación
+-------------------------------------------------------------- */
+header.title.gruposc {
+	background: #029841;
+}
+#gruposc-wrapper {
+	margin: 70px 0 0;
+}
+#gruposc-wrapper h3 {
+	cursor: pointer;
+	margin: 10px 15px 5px;
+	padding: 10px;
+}
+#gruposc-wrapper h3 a:hover {
+	text-decoration: none;
+}
+#group1 h3,
+#group1 h3 a {
+	background: #03B3B2;
+}
+#group2 h3,
+#group2 h3 a {
+	background: #5DB2FF;
+}
+#group3 h3,
+#group3 h3 a {
+	background: #D24726;
+}
+#group4 h3,
+#group4 h3 a {
+	background: #A40000;
+}
+#group5 h3,
+#group5 h3 a {
+	background: #AC193D;
+}
+#gruposc-wrapper .list {
+	margin:0;
+}
+#gruposc-wrapper .responsibles{
+	color: #000;
+	font: 1.3em 'Open Sans', sans-serif;
+	padding: 10px 25px;
+	position: relative;
+}
+.members-list {
+	display: none;
+}
+.member-item {
+	border-bottom: 1px solid #EFEFEF;
+	color: #333;
+	font: 1.2em 'Open Sans', sans-serif;
+	margin: 5px 25px;
+	position: relative;
+}
+
+/* #. Limpieza
+-------------------------------------------------------------- */
+header.title.limpieza {
+	background: #D24726;
+}
+.limpieza-item .nombre-grupo {
+	font: 600 1.3em 'Open Sans', sans-serif;
+}
+.limpieza-item .nombre-grupo.grupo-1 {
+	color: #028282;
+}
+.limpieza-item .nombre-grupo.grupo-2 {
+	color: #0081F4;
+}
+.limpieza-item .nombre-grupo.grupo-3 {
+	color: #B83F21;
+}
+.limpieza-item .nombre-grupo.grupo-4 {
+	color: #A40000;
+}
+.limpieza-item .nombre-grupo.grupo-5 {
+	color: #9A1637;
+}
+.limpieza-item .responsible {
+	color: #717171;
+	font: 300 1.1em 'Open Sans', sans-serif;
+	padding: 0;
+}
+
+
+/* #. Footer
+-------------------------------------------------------------- */
+#main-footer p {
+	color: #777;
+	font-size:12px;
+	padding: 25px;
+}
+#main-footer a {
+	color: #777;
+}
+
+
+/* . Media Queries
+------------------------------------------------------------------ */
+
+@media screen and (max-width: 1024px) {
+
+	.wrapper {
+		margin: 0 auto;
+		width: 100%;
+	}
+	header.title {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.billboard-item {
+		width: 33.3%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.billboard-title {
+		font: 600 1em 'Open Sans', sans-serif;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.billboard-item {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 160px) {
+	.billboard-item {
+		width: 100%;
+	}
+}

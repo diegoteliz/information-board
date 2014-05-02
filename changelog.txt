@@ -1,0 +1,98 @@
+JWuy - Changelog
+by Diego Téliz
+
+******************************
+
+
+Version 1.0
+------------------------------
+- Versión estática en HTML + Arrays y clases PHP para la carga de contenido.
+- Estructura y navegación basadas en Backbone.
+- Versión Responsive Design; compatible tanto con equipos de escritorio como con dispositivos móviles.
+- Planillas para: 
+	> Grupos de predicación
+	> Sonido y acomodadores
+	> Limpieza
+	> Anuncios
+	> Escuela del Ministerio Teocrático
+	> Reunión de Servicio y Estudio Bíblico de Congregación
+	> Discurso Bíblico
+	> Estudio de la Atalaya
+	> Grupos de Congregación
+- Menú estilo grilla en la home para acceder a las distintas planillas
+- Adición de Google Analytics
+
+
+Version 1.1 - Fines diciembre
+------------------------------
+- Menú lateral para agilizar navegación
+- Otras mejoras visuales y de usabilidad
+
+
+Version 1.2 - mediados de enero
+------------------------------
+- Integración con WordPress (versión 3.8)
+- Creación personalizada de usuarios
+- Gestión dinámica de noticias 
+- Rehacer el icono de la app
+
+
+Version 1.3 - principios de febrero
+------------------------------
+- Gestión dinámica de grupos de predicación
+- Gestión de puntos de salida
+- Crear gestor de planillas a imprimir
+- Visualización de puntos de salida
+- Gestión adicional de responsables de grupo personalizados (ej: Bulevares, Sup)
+
+
+Version 1.4 - marzo
+------------------------------
+- Reunión de Servicio y EBC
+
+
+Version 1.5 - abril
+------------------------------
+- EMT
+
+
+Version 1.6 - mayo
+------------------------------
+- Sonido y acomodadores, Limpieza
+
+
+Version 1.7 - junio
+------------------------------
+- Discurso Bíblico
+
+
+Version 1.8 - julio
+------------------------------
+- Estudio de la Atalaya
+
+
+Version 1.9 - agosto
+------------------------------
+- Grupos de Congregación
+
+
+
+Version 2.0 - noviembre
+------------------------------
+Login en frontend
+Sistema de notificaciones
+
+Creación de app e integración con sistema
+
+
+Version 2.1
+------------------------------
+Mapa de Territorios
+
+
+
+Version 2.2
+------------------------------
+Ingreso de informes
+
+Visualización de changelog desde WP
