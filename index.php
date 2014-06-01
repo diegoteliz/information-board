@@ -236,19 +236,19 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 				},
 				//External Redirects
 				informes1Redirect : function() {
-					window.location.href = "https://docs.google.com/spreadsheets/d/1hL7RC2tXztDUNJZQnyEWMasGw8pl5P-D_IReHB_g8lw/edit#gid=0";
+					window.location.href = "https://docs.google.com/spreadsheets/d/1hL7RC2tXztDUNJZQnyEWMasGw8pl5P-D_IReHB_g8lw/edit#gid=252488701";
 				},
 				informes2Redirect : function() {
-					window.location.href = "https://docs.google.com/spreadsheets/d/1jcWe3uZOshN7SF3qNfjYMK9YixAgiQrmPQ7XQk3Lvfg/edit#gid=0";
+					window.location.href = "https://docs.google.com/spreadsheets/d/1jcWe3uZOshN7SF3qNfjYMK9YixAgiQrmPQ7XQk3Lvfg/edit#gid=1958738429";
 				},
 				informes3Redirect : function() {
-					window.location.href = "https://docs.google.com/spreadsheets/d/1OaJD6O4GQWi5Vi8ye3y24Vw1tWR94J9TKF3JoYJY0og/edit#gid=0";
+					window.location.href = "https://docs.google.com/spreadsheets/d/1OaJD6O4GQWi5Vi8ye3y24Vw1tWR94J9TKF3JoYJY0og/edit#gid=1297933870";
 				},
 				informes4Redirect : function() {
-					window.location.href = "https://docs.google.com/spreadsheets/d/1HI3lBIw0vW4Y_lshSpKyjLS63uPatQQenNSz_J1h_wA/edit#gid=0";
+					window.location.href = "https://docs.google.com/spreadsheets/d/1HI3lBIw0vW4Y_lshSpKyjLS63uPatQQenNSz_J1h_wA/edit#gid=40724863";
 				},
 				informes5Redirect : function() {
-					window.location.href = "https://docs.google.com/spreadsheets/d/1_UZij9YaH7Af-zWnlXAv84MeUfn6BNz516jMUzGNSVE/edit#gid=0";
+					window.location.href = "https://docs.google.com/spreadsheets/d/1_UZij9YaH7Af-zWnlXAv84MeUfn6BNz516jMUzGNSVE/edit#gid=1276026973";
 				},
 				informesRedirect : function() {
 					window.location.href = "https://docs.google.com/spreadsheets/d/1DRQ_A7WDYRTFH9v9E4fiP6J1nYj7GCJ2IVCsLz-k5BM/edit#gid=630981098";
