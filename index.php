@@ -162,7 +162,8 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 					'informes/grupo-3'						: 'informes3Redirect',
 					'informes/grupo-4'						: 'informes4Redirect',
 					'informes/grupo-5'						: 'informes5Redirect',
-					'informes/todos'						: 'informesRedirect'
+					'informes/todos'						: 'informesRedirect',
+					'planillas'								: 'planillasRedirect'
 				},
 				
 				// Pages
@@ -252,6 +253,9 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 				},
 				informesRedirect : function() {
 					window.location.href = "https://docs.google.com/spreadsheets/d/1DRQ_A7WDYRTFH9v9E4fiP6J1nYj7GCJ2IVCsLz-k5BM/edit#gid=630981098";
+				},
+				planillasRedirect : function() {
+					window.location.href = "https://docs.google.com/spreadsheets/d/1aFJuSNVbcL6vTYj3oUwFkFlEPwG1MqooGBSAnuGPT8Q/edit#gid=0";
 				}
 			});
 
