@@ -119,22 +119,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-03-03','2014-03-04','2014-03-04','2014-03-05','2014-03-05','2014-03-07','2014-03-08','2014-03-08','2014-03-10','2014-03-11','2014-03-11','2014-03-12','2014-03-12','2014-03-14','2014-03-15'
+				'2014-06-16','2014-06-17','2014-06-17','2014-06-18','2014-06-18','2014-06-20','2014-06-21','2014-06-21','2014-06-22','2014-06-23','2014-06-24','2014-06-24','2014-06-25','2014-06-25','2014-06-27','2014-06-28','2014-06-28','2014-06-30'
 			),
 
 			// Time column
 			'time' => array(
-				'18:00','09:30','18:00','09:30','18:00','09:30','09:30','18:00','18:00','09:30','18:00','09:30','18:00','09:30','08:30'
+				'15:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','11:00','15:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','15:00'
 			), 
 
 			// Location column
 			'location' => array(
-				'Familia Rodríguez','Casa de Rosa Giménez','Barra Santa Lucía','Familia Rivero','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Salón del Reino','Familia Rodríguez','Casa de Rosa Giménez','Barra Santa Lucía','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Familia Fuentes (Territorio poco trabajado)'
+				'Familia Rodríguez','Casa de Rosa Giménez','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Familia Navarro','Salón del Reino','Familia Rodríguez'
 			),
 			
 			// Responsible column
 			'responsible' => array(
-				'Ricardo Rodríguez','Humberto Cardozo','Iván Rivero','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Luis Sandes','Michel Fuentes','Ricardo Rodríguez','Humberto Cardozo','Michel Fuentes','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Michel Fuentes'
+				'Osvaldo Simone','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Germán Demarco','Carlos Cabrera','Diego Téliz','Osvaldo Simone','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Carlos Cabrera','Luis Sandes','Osvaldo Simone'
 			)
 		);
 

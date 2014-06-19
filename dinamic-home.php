@@ -4,7 +4,6 @@
 						<h1 id="home-title">Delta del Tigre</h1>
 					</div>
 				</header>
-				<?php include_once("menu.php") ?>
 				<div class="wrapper">
 					<nav>
 						<ul id="billboard-list">
