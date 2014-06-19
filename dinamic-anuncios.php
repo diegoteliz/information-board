@@ -14,10 +14,6 @@ include_once('class/class.billboard.php'); ?>
 							<p>El <b>Sábado 14 de Septiembre</b> tendremos la oportunidad de participar de un día entero de predicación en la ciudad de Mígues.</p>
 						</li> -->
 						<li class="list-item">
-							<h4>Abril</h4>
-							<p>Las publicaciones que se ofrecerán en Abril son: <i>La Atalaya</i> y <i>¡Despertad!</i></p>
-						</li>
-						<li class="list-item">
 							<h4>Mayo y Junio</h4>
 							<p>Las publicaciones que se ofrecerán en los meses de <b>Mayo</b> y <b>Junio</b> de 2014 serán: 
 								<i>¿Qué enseña realmente la Biblia?</i> o uno de los siguientes tratados:
