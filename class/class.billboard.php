@@ -148,22 +148,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-03-06','2014-03-09','2014-03-13','2014-03-16','2014-03-20','2014-03-23','2014-03-27','2014-03-30','2014-04-03','2014-04-06','2014-04-10','2014-04-13','2014-04-17','2014-04-20','2014-04-24','2014-04-27'
+				'2014-05-01','2014-05-04','2014-05-08','2014-05-11','2014-05-15','2014-05-18','2014-05-22','2014-05-25','2014-05-29','2014-06-01','2014-06-05','2014-06-08','2014-06-12','2014-06-15','2014-06-19','2014-06-22','2014-06-26','2014-06-29'
 			),
 
 			// Group id
 			'group_id' => array(
-				'4','4','5','5','1','1','2','2','3','3','4','4','5','5','1','1'
+				'2','2','3','3','4','4','5','5','1','1','2','2','3','3','4','4','5','5'
 			), 
 
 			// Group name
 			'group_name' => array(
-				'Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1'
+				'Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5'
 			),
 			
 			// Responsible group
 			'responsible' => array(
-				'Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro'
+				'Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara'
 			)
 		);
 
@@ -177,7 +177,7 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-03-02','2014-03-06','2014-03-09','2014-03-13','2014-03-16','2014-03-20','2014-03-23','2014-03-27','2014-03-30','2014-04-03','2014-04-06','2014-04-10','2014-04-13','2014-04-17','2014-04-20','2014-04-24','2014-04-27'
+				'2014-05-04','2014-05-08','2014-05-11','2014-05-15','2014-05-18','2014-05-22','2014-05-25','2014-05-29','2014-06-01','2014-06-05','2014-06-08','2014-06-12','2014-06-15','2014-06-19','2014-06-22','2014-06-26','2014-06-29'
 			),
 
 			// Equipment column
@@ -197,7 +197,7 @@ class billboard {
 
 			// Platform column
 			'platform' => array(
-				'Marcelo','Germán','Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Iván','Marcelo','Diego','Germán','Luis','Iván'
+				'Marcelo','Germán','Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Iván','Marcelo','Diego','Luis','Germán','Iván'
 			),
 			
 			// Ushers column
@@ -216,27 +216,27 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-02-02','2014-02-09','2014-02-16','2014-02-23','2014-03-02','2014-03-09','2014-03-16','2014-03-23','2014-03-30','2014-04-06','2014-04-13','2014-04-20','2014-04-27','2014-05-04','2014-05-11','2014-05-18','2014-05-25','2014-06-01','2014-06-08'
+				'2014-06-01','2014-06-08','2014-06-15','2014-06-22','2014-06-29','2014-07-06','2014-07-13','2014-07-20','2014-07-27','2014-08-03','2014-08-10','2014-08-17','2014-08-24','2014-08-31','2014-09-07','2014-09-14','2014-09-21','2014-09-28','2014-10-05','2014-10-12','2014-10-19','2014-10-26','2014-11-02','2014-11-09','2014-11-16','2014-11-23','2014-11-30'
 			),
 
 			// Equipment column
 			'conductor'	=> array(
-				'Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes'
+				'Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes','Luis Sandes'
 			),
 
 			// Microphone 1 column
 			'lector' => array(
-				'Diego Téliz','Carlos Cabrera','Ricardo Rodríguez','Michel Fuentes','Iván Rivero','Germán Demarco','Rubens Rivero','Diego Téliz','Humberto Cardozo','Germán Demarco','Leonel Navarro','Carlos Cabrera','Rubens Rivero','Iván Rivero','Leonel Navarro','Ricardo Rodríguez','Michel Fuentes','Diego Téliz','Humberto Cardozo'
+				'Diego Téliz','Humberto Cardozo','Ricardo Rodríguez','Michel Fuentes','Leonel Navarro','Diego Téliz','Rubens Rivero','Iván Rivero','Carlos Cabrera','Leonardo Guevara','Germán Demarco','Humberto Cardozo','Ricardo Rodríguez','Michel Fuentes','Leonel Navarro','Diego Téliz','Rubens Rivero','Iván Rivero','Carlos Cabrera','Leonardo Guevara','Germán Demarco','Humberto Cardozo','Ricardo Rodríguez','Michel Fuentes','Leonel Navarro','Diego Téliz','Rubens Rivero'
 			), 
 
 			// Microphone 2 column
 			'tema' => array(
-				'Pastores, imiten a Jehová y Jesús','“No se dejen confundir”','¿Haremos sacrificios por el Reino?','“Tiene que servirles de memoria”','“Sigan haciendo esto en memoria de mí”','Adoremos a Jehová, el Rey de la eternidad','Los logros del Reino en sus primeros cien años','Toma buenas decisiones en tu juventud','Sirva a Jehová antes de que lleguen los días calamitosos','¿Hasta cuándo pediremos “Venga tu reino”? ','¡Honremos a Cristo, el glorioso Rey!','¡Alegrémonos por la boda del Cordero!','Jehová, nuestro Proveedor y Protector','Jehová, nuestro mejor Amigo','Mantengamos un espíritu de sacrificio','Mantengamos una actitud positiva','Honremos a nuestros mayores','Cuidemos a nuestros mayores','Imitemos la fe de Moisés'
+				'Cuidemos a nuestros mayores','Imitemos la fe de Moisés','¿Vemos a “Aquel que es invisible”?','Nadie puede servir a dos amos','¡Ánimo! Jehová lo ayudará','¿Agradecemos que Jehová nos vigile?','¿Cómo “dar una respuesta a cada uno”?','Siga la Regla de Oro en su ministerio','Jehová es un Dios de organización','¿Avanzamos con la organización de Jehová?','“Tienes que amar a Jehová tu Dios”','“Tienes que amar a tu prójimo”','¿Vemos a los débiles como Jehová los ve?','Ayudemos a los hermanos a desarrollar todo su potencial','“Jehová conoce a los que le pertenecen”','Los siervos de Jehová renuncian a la injusticia','“Ustedes son mis testigos”','“Serán testigos de mí”','Las mujeres en el propósito de Jehová','La Palabra de Dios es viva: ¡usémosla!','Jehová se acerca a nosotros','Escuchemos la voz de Jehová dondequiera que estemos','¿Está usted convencido de que ha encontrado la verdad?','Sirva lealmente a Dios a pesar de “muchas tribulaciones”','Padres, pastoreen a sus hijos','El último enemigo, la muerte, desaparecerá','Tengamos presentes a los siervos de tiempo completo'
 			),
 			
 			// Ushers column
 			'link' => array(
-				'http://www.jw.org/es/publicaciones/revistas/w20131115/pastores-imiten-a-jehov%C3%A1-y-jes%C3%BAs/','http://www.jw.org/es/publicaciones/revistas/w20131215/no-se-dejen-confundir/','http://www.jw.org/es/publicaciones/revistas/w20131215/haremos-sacrificios-por-el-reino/','http://www.jw.org/es/publicaciones/revistas/w20131215/pascua-servirles-de-memoria/','http://www.jw.org/es/publicaciones/revistas/w20131215/en-memoria-de-m%C3%AD/','http://www.jw.org/es/publicaciones/revistas/w20140115/adoremos-a-jehov%C3%A1-rey-de-la-eternidad/','http://www.jw.org/es/publicaciones/revistas/w20140115/reino-primeros-cien-a%C3%B1os/','http://www.jw.org/es/publicaciones/revistas/w20140115/toma-buenas-decisiones-en-tu-juventud/','http://www.jw.org/es/publicaciones/revistas/w20140115/sirva-a-jehov%C3%A1-magn%C3%ADfico-creador/','http://www.jw.org/es/publicaciones/revistas/w20140115/venga-tu-reino/','http://www.jw.org/es/publicaciones/revistas/w20140215/honremos-a-cristo-el-glorioso-rey/','http://www.jw.org/es/publicaciones/revistas/w20140215/alegr%C3%A9monos-boda-del-cordero/','http://www.jw.org/es/publicaciones/revistas/w20140215/jehov%C3%A1-proveedor-protector/','http://www.jw.org/es/publicaciones/revistas/w20140215/jehov%C3%A1-dios-mejor-amigo/','http://www.jw.org/es/publicaciones/revistas/w20140315/esp%C3%ADritu-de-sacrificio/','http://www.jw.org/es/publicaciones/revistas/w20140315/mantengamos-una-actitud-positiva/','http://www.jw.org/es/publicaciones/revistas/w20140315/honremos-a-nuestros-mayores/','http://www.jw.org/es/publicaciones/revistas/w20140315/cuidemos-a-nuestros-mayores/','http://www.jw.org/es/publicaciones/revistas/w20140415/fe-de-mois%C3%A9s/'
+				'http://www.jw.org/es/publicaciones/revistas/w20140315/cuidemos-a-nuestros-mayores/','http://www.jw.org/es/publicaciones/revistas/w20140415/fe-de-mois%C3%A9s/','http://www.jw.org/es/publicaciones/revistas/w20140415/aquel-que-es-invisible/','http://www.jw.org/es/publicaciones/revistas/w20140415/nadie-puede-servir-a-dos-amos/','http://www.jw.org/es/publicaciones/revistas/w20140415/jehov%C3%A1-lo-ayudar%C3%A1/','http://www.jw.org/es/publicaciones/revistas/w20140415/agradecemos-que-jehov%C3%A1-nos-vigile/','http://www.jw.org/es/publicaciones/revistas/w20140515/c%C3%B3mo-dar-una-respuesta-a-cada-uno/','http://www.jw.org/es/publicaciones/revistas/w20140515/la-regla-de-oro/','http://www.jw.org/es/publicaciones/revistas/w20140515/jehov%C3%A1-dios-de-organizaci%C3%B3n/','http://www.jw.org/es/publicaciones/revistas/w20140515/avanzamos-con-organizaci%C3%B3n-jehov%C3%A1/','http://www.jw.org/es/publicaciones/revistas/w20140615/amar-a-jehov%C3%A1-tu-dios/','http://www.jw.org/es/publicaciones/revistas/w20140615/amar-a-tu-pr%C3%B3jimo/','http://www.jw.org/es/publicaciones/revistas/w20140615/vemos-a-d%C3%A9biles/','http://www.jw.org/es/publicaciones/revistas/w20140615/ayudemos-a-los-hermanos-a-desarrollar-todo-su-potencial/','http://www.jw.org/es/publicaciones/revistas/w20140715/dios-conoce-a-los-que-le-pertenecen/','http://www.jw.org/es/publicaciones/revistas/w20140715/siervos-jehov%C3%A1-renuncian-injusticia/','http://www.jw.org/es/publicaciones/revistas/w20140715/ustedes-son-mis-testigos/','http://www.jw.org/es/publicaciones/revistas/w20140715/testigos-de-m%C3%AD/','http://www.jw.org/es/publicaciones/revistas/w20140815/mujeres-en-prop%C3%B3sito-de-jehov%C3%A1/','http://www.jw.org/es/publicaciones/revistas/w20140815/la-palabra-de-dios-es-viva/','http://www.jw.org/es/publicaciones/revistas/w20140815/jehov%C3%A1-se-acerca-a-nosotros/','http://www.jw.org/es/publicaciones/revistas/w20140815/escuche-voz-jehov%C3%A1/','http://www.jw.org/es/publicaciones/revistas/w20140915/testigos-de-jehov%C3%A1-convencidos-encontrado-verdad/','http://www.jw.org/es/publicaciones/revistas/w20140915/sirva-a-dios-a-pesar-de-tribulaciones/','http://www.jw.org/es/publicaciones/revistas/w20140915/padres-pastoreen-a-sus-hijos/','http://www.jw.org/es/publicaciones/revistas/w20140915/%C3%BAltimo-enemigo-muerte-desaparecer%C3%A1/','http://www.jw.org/es/publicaciones/revistas/w20140915/tengamos-presentes-a-los-siervos-de-tiempo-completo/'
 			)
 		);
 
@@ -250,27 +250,27 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-02-02','2014-02-09','2014-02-16','2014-02-23','2014-03-02','2014-03-09','2014-03-16','2014-03-23','2014-03-30','2014-04-06','2014-04-13','2014-04-20','2014-04-27','2014-05-04','2014-05-11','2014-05-18','2014-05-25','2014-06-01','2014-06-08'
+				'2014-06-08','2014-06-15','2014-06-22','2014-06-29','2014-07-06','2014-07-13','2014-07-20','2014-07-27','2014-08-03','2014-08-10','2014-08-17','2014-08-24','2014-08-31','2014-09-07','2014-09-14','2014-09-21'
 			),
 
 			// Equipment column
 			'president'	=> array(
-				'Ricardo Rodríguez','Leonel Navarro','Iván Rivero','Germán Demarco','Leonardo Guevara','Michel Fuentes','Carlos Cabrera','Rubens Rivero','Ricardo Rodríguez','Leonel Navarro','Iván Rivero','Germán Demarco','Leonardo Guevara','Michel Fuentes','Carlos Cabrera','Rubens Rivero','Ricardo Rodríguez','Leonel Navarro','Iván Rivero'
+				'Iván Rivero','Leonardo Guevara','Carlos Cabrera','Rubens Rivero','Iván Rivero','Michel Fuentes','Carlos Cabrera','Germán Demarco','Leonel Navarro','Rubens Rivero','Iván Rivero','Carlos Cabrera','Leonardo Guevara','Michel Fuentes','Rubens Rivero','Leonel Navarro'
 			),
 
 			// Microphone 1 column
 			'topic' => array(
-				'¿Cifra usted su esperanza en la ciencia o en La Biblia?','¿En las promesas de quién confía usted?','La Biblia ante las prácticas espiritistas','Dedique tiempo en meditar en asuntos espirituales','No dejemos que este mundo nos contamine','Esténsen quietos y vean la salvación de Jehová','El único remedio para la humanidad enferma','Superemos el temor al futuro','Sirva a Jehová con un corazón gozoso','¿Qué pruebas demuestran la autenticidad de La Biblia?','','Esfuércese por lo que es realmente vida','Conferencia especial','¿Conoce usted bien a Dios?','La misericordia; cualidad dominante de los cristianos verdaderos','¿Qué clase de nombre se está haciendo con Dios?','Asamblea especial','','¿Realmente hace usted de Jehová su plaza fuerte?'
+				'¿Realmente hace usted de Jehová su plaza fuerte?','¿Cómo se puede ser feliz a pesar de tener hambre?','Andemos en el camino de la integridad','Edifique su fe en el Hacedor del hombre','-','Una congregación leal bajo la dirección de Cristo','Que todo cuanto tengamos glorifique a Dios','Sirvamos con la organización unificada de Jehová','¿Cómo puede usted colaborar con el Reino de Dios?','El tiempo de juicio para la religión','Permanezcamos sin culpa en medio de una generación torcida','¿Es esta vida todo cuanto hay?','Jehová, el Magnífico Creador','Aprecie las maravillas de la creación de Dios','Liberados de un mundo de oscuridad','Utilice la educación para alabar a Jehová'
 			), 
 
 			// Microphone 2 column
 			'speaker' => array(
-				'Oscar Rivero','José Canavery','Harry Durán','Clever Cortiza','Martín Otárola','Fernando Llambías','Diego Demarco','Pablo Scigliano','Juan Merlino','Martín Cattani','','Héctor Rodríguez','Conferencia especial','Williams Bartora','Juan Nassif','Nelson Lerma','Asamblea especial','','Marcelo Mariño'
+				'Marcelo Mariño','Alejandro Roldán','Manuel Rollón','Miguel Herbig','Claudio Breijo','J. C. L.','Jorge M.','Freddy M.','L. Olivera','Luis Benítez','M. Rodríguez','Gustavo C.','Alex Vlaemihok','Jorge Rocha','Ricardo Molina','Cristian B.'
 			),
 			
 			// Ushers column
 			'congregation' => array(
-				'Santa Catalina','Santa Catalina','Santa Catalina','Santa Catalina','Los Bulevares','Los Bulevares','Los Bulevares','Los Bulevares','Los Bulevares','Cerro','','Los Bulevares','Conferencia especial','Paso de la Arena','Paso de la Arena','Paso de la Arena','Asamblea especial','','Paso de la Arena'
+				'Paso de la Arena','Paso de la Arena','Paso de la Arena','Paso de la Arena','-','Playa Pascual','Playa Pascual','Playa Pascual','Playa Pascual','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata'
 			)
 		);
 
