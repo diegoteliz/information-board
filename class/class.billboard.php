@@ -119,22 +119,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-06-16','2014-06-17','2014-06-17','2014-06-18','2014-06-18','2014-06-20','2014-06-21','2014-06-21','2014-06-22','2014-06-23','2014-06-24','2014-06-24','2014-06-25','2014-06-25','2014-06-27','2014-06-28','2014-06-28','2014-06-30'
+				'2014-07-01','2014-07-01','2014-07-02','2014-07-02','2014-07-04','2014-07-05','2014-07-05','2014-07-05','2014-07-06','2014-07-07','2014-07-08','2014-07-08','2014-07-09','2014-07-09','2014-07-11','2014-07-12','2014-07-12','2014-07-14','2014-07-15','2014-07-15','2014-07-16','2014-07-16','2014-07-18','2014-07-19','2014-07-19','2014-07-20','2014-07-21','2014-07-22','2014-07-23','2014-07-23','2014-07-24','2014-07-25','2014-07-26','2014-07-26','2014-07-28','2014-07-29','2014-07-29','2014-07-30','2014-07-30'
 			),
 
 			// Time column
 			'time' => array(
-				'15:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','11:00','15:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','15:00'
+				'9:30','15:00','9:30','15:00','15:00','9:30','15:00','15:00','11:00','16:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','16:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','11:00','16:00','9:30','9:30','15:00','9:30','9:30','9:30','15:00','16:00','9:30','15:00','9:30','15:00'
 			), 
 
 			// Location column
 			'location' => array(
-				'Familia Rodríguez','Casa de Rosa Giménez','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Familia Navarro','Salón del Reino','Familia Rodríguez'
+				'Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Familia Rivero','Casa de Rosa Giménez','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Familia Navarro','Familia Fuentes','A confirmar','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Familia Navarro','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rodríguez','Familia Rivero','Casa de Blanca Pereira','Casa de Rosa Giménez','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino'
 			),
 			
 			// Responsible column
 			'responsible' => array(
-				'Osvaldo Simone','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Germán Demarco','Carlos Cabrera','Diego Téliz','Osvaldo Simone','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Carlos Cabrera','Luis Sandes','Osvaldo Simone'
+				'Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Germán Demarco','Carlos Cabrera','Luis Sandes','Leonardo Guevara','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Michel Fuentes','A confirmar','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Diego Téliz','Leonardo Guevara','Michel Fuentes','Ricardo Rodríguez','Humberto Cardozo','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero'
 			)
 		);
 
