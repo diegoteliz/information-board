@@ -20,6 +20,10 @@ function get_date( $date , $format ) {
 			return $dias[date('w',strtotime($date))]." ".date('d',strtotime($date))." de ".$meses[date('n',strtotime($date))-1] ;
 			break;
 
+		case 'Semana del 00 de Mes':
+			return "Semana del ".date('d',strtotime($date))." de ".$meses[date('n',strtotime($date))-1] ;
+			break;
+
 		case 'Dia 00':
 			return $dias[date('w',strtotime($date))]." ".date('d',strtotime($date));
 			break;
@@ -34,7 +38,7 @@ class billboard {
 	
 	/*function __construct(argument)
 	{
-		- Bible Discourse
+		- Bible Discourse / Public Talk
 		- Watchtower Study
 		- Congregation Bible Study
 		- Theocratic Ministry School
@@ -275,6 +279,91 @@ class billboard {
 		);
 
 		return $discourse;
+	}
+
+	// CBS & Service Meeting
+	function cbs_service_meeting(){
+		
+		$meetings = array(
+
+			// Date column
+			'date' => array(
+				'2014-07-07'
+			),
+
+			// Start Prayer
+			'start_prayer' => array(
+				'Osvaldo Simone'
+			), 
+
+			// End Prayer
+			'end_prayer' => array(
+				'Luis Sandes'
+			),
+			
+			// CBS Speaker
+			'cbs_speaker' => array(
+				'Germán Demarco'
+			),
+			
+			// CBS Lector
+			'cbs_lector' => array(
+				'Humberto Cardozo'
+			),
+			
+			// CBS Info
+			'cbs_info' => array(
+				'cl cap. 9 párrs. 21-24'
+			),
+			
+			// SM Min 1
+			'sm_min_1' => array(
+				'10'
+			),
+			
+			// SM Speaker 1
+			'sm_speaker_1' => array(
+				'Rubens Rivero'
+			),
+			
+			// SM Info 1
+			'sm_info_1' => array(
+				'Ideas para ofrecer las revistas en julio.'
+			),
+			
+			// SM Min 2
+			'sm_min_2' => array(
+				'10'
+			),
+			
+			// SM Speaker 2
+			'sm_speaker_2' => array(
+				'Leonardo Guevara'
+			),
+			
+			// SM Info 2
+			'sm_info_2' => array(
+				'Necesidades de la congregación.'
+			),
+			
+			// SM Min 3
+			'sm_min_3' => array(
+				'10'
+			),
+			
+			// SM Speaker 3
+			'sm_speaker_3' => array(
+				'Leonel Navarro'
+			),
+			
+			// SM Info 3
+			'sm_info_3' => array(
+				'¿Qué hemos logrado?'
+			)
+			
+		);
+
+		return $meetings;
 	}
 }
 ?>
