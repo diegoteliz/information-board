@@ -288,77 +288,77 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-07-07'
+				'2014-07-07','2014-07-14','2014-07-21','2014-07-28','2014-08-04','2014-08-11','2014-08-18','2014-08-25','2014-09-01'
 			),
 
 			// Start Prayer
 			'start_prayer' => array(
-				'Osvaldo Simone'
+				'Osvaldo Simone','Germán Demarco','Geremías Fuentes','Rubens Rivero','Marcelo Paolino','Ricardo Rodríguez','Leonel Navarro','Iván Rivero','Carlos Cabrera'
 			), 
 
 			// End Prayer
 			'end_prayer' => array(
-				'Luis Sandes'
+				'Luis Sandes','Iván Rivero','Humberto Cardozo','Diego Téliz','Michel Fuentes','Leonardo Guevara','Luis Sandes','Rubens Rivero','Osvaldo Simone'
 			),
 			
 			// CBS Speaker
 			'cbs_speaker' => array(
-				'Germán Demarco'
+				'Germán Demarco','Iván Rivero','Michel Fuentes','Leonel Navarro','Germán Demarco','Carlos Cabrera','Rubens Rivero','Germán Demarco','Iván Rivero'
 			),
 			
 			// CBS Lector
 			'cbs_lector' => array(
-				'Humberto Cardozo'
+				'Humberto Cardozo','Diego Téliz','Humberto Cardozo','Marcelo Paolino','Ricardo Rodríguez','Diego Téliz','Humberto Cardozo','Marcelo Paolino','Ricardo Rodríguez'
 			),
 			
 			// CBS Info
 			'cbs_info' => array(
-				'cl cap. 9 párrs. 21-24'
+				'cl cap. 9 párrs. 21-24','cl cap. 10 párrs. 1-7','cl cap. 10 párrs. 8-17','cl cap. 10 párrs. 18-21 y recuadro de la pág. 106','cl cap. 11 párrs. 1-8','cl cap. 11 párrs. 9-16','cl cap. 11 párrs. 17-22 y recuadro de la pág. 116','cl cap. 12 párrs. 1-8','cl cap. 12 párrs. 9-15'
 			),
 			
 			// SM Min 1
 			'sm_min_1' => array(
-				'10'
+				'10','10','10','10','10','5','15','5','10'
 			),
 			
 			// SM Speaker 1
 			'sm_speaker_1' => array(
-				'Rubens Rivero'
+				'Rubens Rivero','Germán Demarco','Ricardo Rodríguez','Iván Rivero','Leonardo Guevara','Ricardo Rodríguez','Leonardo Guevara','Leonel Navarro','Germán Demarco'
 			),
 			
 			// SM Info 1
 			'sm_info_1' => array(
-				'Ideas para ofrecer las revistas en julio.'
+				'Ideas para ofrecer las revistas en julio.','¿Estamos listos para la campaña especial de agosto?','Se nos respeta por nuestra buena conducta y neutralidad cristiana.','¿Estás preparado para afrontar los desafíos en la escuela?','Ideas para ofrecer las revistas en agosto.','“1914-2014: cien años de gobierno del Reino.”','“Un siglo anunciando el Reino.” (Primera parte.)','Experiencias de la congregación.','Ideas para ofrecer las revistas en septiembre.'
 			),
 			
 			// SM Min 2
 			'sm_min_2' => array(
-				'10'
+				'10','5','10','10','10','10','15','10','10'
 			),
 			
 			// SM Speaker 2
 			'sm_speaker_2' => array(
-				'Leonardo Guevara'
+				'Leonardo Guevara','Leonel Navarro','Rubens Rivero','Luis Sandes','Luis Sandes','Iván Rivero','Leonel Navarro','Carlos Cabrera','Rubens Rivero'
 			),
 			
 			// SM Info 2
 			'sm_info_2' => array(
-				'Necesidades de la congregación.'
+				'Necesidades de la congregación.','Sáquele provecho al folleto Examinando las Escrituras diariamente.','¿Hará el precursorado auxiliar en agosto?','Entrevista al secretario.','Necesidades de la congregación.','“Usemos el nuevo tratado Visite jw.org.”','“Un siglo anunciando el Reino.” (Segunda parte.)','Explique el Reino (primera parte).','¿Cómo nos fue?'
 			),
 			
 			// SM Min 3
 			'sm_min_3' => array(
-				'10'
+				'10','15','10','10','10','15','','15','10'
 			),
 			
 			// SM Speaker 3
 			'sm_speaker_3' => array(
-				'Leonel Navarro'
+				'Leonel Navarro','Carlos Cabrera','Leonardo Guevara','Michel Fuentes','Carlos Cabrera','Michel Fuentes','','Michel Fuentes','Leonardo Guevara'
 			),
 			
 			// SM Info 3
 			'sm_info_3' => array(
-				'¿Qué hemos logrado?'
+				'¿Qué hemos logrado?','“Mejore sus habilidades en el ministerio: empiece conversaciones para dar testimonio informal.”','¿Cómo me ve Jehová?','“Tomen por modelo a los profetas: Sofonías.”','¿Cómo nos fue?','“Mejore sus habilidades en el ministerio: hable del Reino con valor y convicción.”','','Explique el Reino (segunda parte).','Informe sobre la campaña especial.'
 			)
 			
 		);
