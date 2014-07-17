@@ -152,22 +152,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-05-01','2014-05-04','2014-05-08','2014-05-11','2014-05-15','2014-05-18','2014-05-22','2014-05-25','2014-05-29','2014-06-01','2014-06-05','2014-06-08','2014-06-12','2014-06-15','2014-06-19','2014-06-22','2014-06-26','2014-06-29'
+				'2014-07-03','2014-07-06','2014-07-10','2014-07-13','2014-07-17','2014-07-20','2014-07-24','2014-07-27','2014-07-31','2014-08-03','2014-08-07','2014-08-10','2014-08-14','2014-08-17','2014-08-21','2014-08-24','2014-08-28','2014-08-31','2014-09-04','2014-09-07'
 			),
 
 			// Group id
 			'group_id' => array(
-				'2','2','3','3','4','4','5','5','1','1','2','2','3','3','4','4','5','5'
+				'1','1','2','2','3','3','4','4','5','5','1','1','2','2','3','3','4','4','5','5'
 			), 
 
 			// Group name
 			'group_name' => array(
-				'Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5'
+				'Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5'
 			),
 			
 			// Responsible group
 			'responsible' => array(
-				'Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara'
+				'Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara'
 			)
 		);
 
@@ -181,7 +181,7 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-05-04','2014-05-08','2014-05-11','2014-05-15','2014-05-18','2014-05-22','2014-05-25','2014-05-29','2014-06-01','2014-06-05','2014-06-08','2014-06-12','2014-06-15','2014-06-19','2014-06-22','2014-06-26','2014-06-29'
+				'2014-07-06','2014-07-10','2014-07-13','2014-07-17','2014-07-20','2014-07-24','2014-07-27','2014-07-31','2014-08-03','2014-08-07','2014-08-10','2014-08-14','2014-08-17','2014-08-21','2014-08-24','2014-08-28','2014-08-31'
 			),
 
 			// Equipment column
@@ -201,7 +201,7 @@ class billboard {
 
 			// Platform column
 			'platform' => array(
-				'Marcelo','Germán','Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Iván','Marcelo','Diego','Luis','Germán','Iván'
+				'Marcelo','Germán','Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Luis','Marcelo','Diego','Iván','Germán','Iván'
 			),
 			
 			// Ushers column

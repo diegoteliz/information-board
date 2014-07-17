@@ -13,99 +13,83 @@ include_once('class/class.billboard.php');  ?>
 							<h4>Información no disponible</h4>
 						</li> -->
 						<li class="list-item emt-item">
-							<h4>Semana del 27 de Enero</h4>
-
-							<div class="sala">Sala Principal</div>
-							<div class="asignacion"><b>Puntos sobresalientes:</b> Rubens Rivero</div>
-							<div class="info">Génesis 17 a 20</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Erick Garat</div>
-							<div class="info">Génesis 17:18–18:8</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Giannina Paolino	- Katherine Cabrera</div>
-							<div class="info">Jesús no ascendió al cielo con un cuerpo de carne y hueso (rs pág. 327 párrs. 1-3)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Humberto Cardozo</div>
-							<div class="info">Abba. ¿Cómo se emplea el término Abba en la Biblia, y qué mal uso le han dado los hombres? (it-1 pág. 13)</div>
-
-							<div class="sala">Sala Auxiliar</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Ariel Fuentes</div>
-							<div class="info">Génesis 17:18–18:8</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Jael Oviedo - Micaela Sandes</div>
-							<div class="info">Jesús no ascendió al cielo con un cuerpo de carne y hueso (rs pág. 327 párrs. 1-3)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Geremías Fuentes</div>
-							<div class="info">Abba. ¿Cómo se emplea el término Abba en la Biblia, y qué mal uso le han dado los hombres? (it-1 pág. 13)</div>
-						</li>
-
-						<li class="list-item emt-item">
-							<h4>Semana del 3 de Febrero</h4>
-
-							<div class="sala">Sala Principal</div>
-							<div class="asignacion"><b>Puntos sobresalientes:</b> Leonel Navarro</div>
-							<div class="info">Génesis 21 a 24</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Carlos Cabrera</div>
-							<div class="info">Génesis 23:1-20</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Shirley de Cabrera - Angélica Sensever</div>
-							<div class="info">¿Por qué se apareció Jesús en cuerpos materializados? (rs pág. 327 párr. 4–pág. 328 párr. 2)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Osvaldo Simone</div>
-							<div class="info">Abel. Tenga la clase de fe que a Dios le complace (it-1 págs. 16, 17, Abel núm. 1)</div>
-
-							<div class="sala">Sala Auxiliar</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Humberto Cardozo</div>
-							<div class="info">Génesis 23:1-20</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Fabiana Demarco - Claudia de Guevara</div>
-							<div class="info">¿Por qué se apareció Jesús en cuerpos materializados? (rs pág. 327 párr. 4–pág. 328 párr. 2)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Miriam Fontes - Natalia de Suárez</div>
-							<div class="info">Abel. Tenga la clase de fe que a Dios le complace (it-1 págs. 16, 17, Abel núm. 1)</div>
-						</li>
-
-						<li class="list-item emt-item">
-							<h4>Semana del 10 de Febrero</h4>
+							<h4>Semana del 14 de Julio</h4>
 
 							<div class="sala">Sala Principal</div>
 							<div class="asignacion"><b>Puntos sobresalientes:</b> Michel Fuentes</div>
-							<div class="info">Génesis 25 a 28</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Germán Demarco</div>
-							<div class="info">Génesis 25:19-34</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Leticia Rodríguez - Fiorella Rodríguez</div>
-							<div class="info">Los resucitados para reinar con Cristo serán como él (rs pág. 328 párr. 4–pág. 329 párr. 2)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Geremías Fuentes</div>
-							<div class="info">Cosa aborrecible. ¿Qué piensa Jehová de la idolatría y de la desobediencia? (it-1 págs. 562, 563)</div>
+							<div class="info">Levítico 21 a 24</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Ariel Fuentes</div>
+							<div class="info">Levítico 23:1-14</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Fanny Rodríguez	- Fabiana de Demarco</div>
+							<div class="info">La Biblia no enseña que todos los seres humanos se salvarán (rs pág. 340 párr. 3)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Humberto Cardozo</div>
+							<div class="info">Tiempo acepto. Aproveche sabiamente el período favorable que Dios concede (it-2 págs. 1115, 1116)</div>
 
 							<div class="sala">Sala Auxiliar</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Osvaldo Simone</div>
-							<div class="info">Génesis 25:19-34</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Ester de Simone - Jennifer de Téliz</div>
-							<div class="info">Los resucitados para reinar con Cristo serán como él (rs pág. 328 párr. 4–pág. 329 párr. 2)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Analía Rodríguez - Rosario Telechea</div>
-							<div class="info">Cosa aborrecible. ¿Qué piensa Jehová de la idolatría y de la desobediencia? (it-1 págs. 562, 563)</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Geremías Fuentes</div>
+							<div class="info">Levítico 23:1-14</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Carolina Giménez - Liana Sosa</div>
+							<div class="info">La Biblia no enseña que todos los seres humanos se salvarán (rs pág. 340 párr. 3)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Rubens Rivero</div>
+							<div class="info">Tiempo acepto. Aproveche sabiamente el período favorable que Dios concede (it-2 págs. 1115, 1116)</div>
 						</li>
 
 						<li class="list-item emt-item">
-							<h4>Semana del 17 de Febrero</h4>
+							<h4>Semana del 21 de Julio</h4>
+
+							<div class="sala">Sala Principal (Semana de la visita del superintendente)</div>
+							<div class="asignacion"><b>Puntos sobresalientes:</b> Germán Demarco</div>
+							<div class="info">Levítico 25 a 27</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Marcelo Paolino</div>
+							<div class="info">Levítico 26:1-17</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Miriam Fontes - Katherine Cabrera</div>
+							<div class="info">¿Acabarán salvándose todos los seres humanos? (rs pág. 341 párr. 1)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Diego Téliz</div>
+							<div class="info">Accidente, Accidental. La Biblia distingue entre sucesos accidentales e intencionales (it-1 pág. 41–pág. 42 párr. 2)</div>
+						</li>
+
+						<li class="list-item emt-item">
+							<h4>Semana del 28 de Julio</h4>
 
 							<div class="sala">Sala Principal</div>
-							<div class="asignacion"><b>Puntos sobresalientes:</b> Luis Sandes</div>
-							<div class="info">Génesis 29 a 31</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Erick Garat</div>
-							<div class="info">Génesis 29:21-35</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Yanela de Rivero - Susana Echeveste</div>
-							<div class="info">¿Qué significará la resurrección para la humanidad en general? (rs pág. 329 párr. 3–pág. 330 párr. 3)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Ariel Fuentes</div>
-							<div class="info">Abiatar. Un acto de deslealtad puede echar a perder muchos años de fiel servicio (it-1 págs. 20, 21)</div>
+							<div class="asignacion"><b>Puntos sobresalientes:</b> Rubens Rivero</div>
+							<div class="info">Números 1 a 3</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Geremías Fuentes</div>
+							<div class="info">Números 3:21-38</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Susana Echeveste - Natalia de Paolino</div>
+							<div class="info">“Toda clase de hombres” se salvará (rs pág. 341 párr. 2)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Ricardo Rodríguez</div>
+							<div class="info">Acusación. ¿Cómo se atendían las acusaciones bajo las leyes hebrea y romana? (it-1 pág. 46–pág. 47 párr. 1)</div>
 
 							<div class="sala">Sala Auxiliar</div>
-							<div class="asignacion"><b>Asignación Nº1:</b> Marcelo Paolino</div>
-							<div class="info">Génesis 29:21-35</div>
-							<div class="asignacion"><b>Asignación Nº2:</b> Mirtha de Navarro - Liana Sosa</div>
-							<div class="info">¿Qué significará la resurrección para la humanidad en general? (rs pág. 329 párr. 3–pág. 330 párr. 3)</div>
-							<div class="asignacion"><b>Asignación Nº3:</b> Rossana de Sandes - Janete de Cardozo</div>
-							<div class="info">Abiatar. Un acto de deslealtad puede echar a perder muchos años de fiel servicio (it-1 págs. 20, 21)</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Humberto Cardozo</div>
+							<div class="info">Números 3:21-38</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Mónica Estrada - Mirta de Navarro</div>
+							<div class="info">“Toda clase de hombres” se salvará (rs pág. 341 párr. 2)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Germán Demarco</div>
+							<div class="info">Acusación. ¿Cómo se atendían las acusaciones bajo las leyes hebrea y romana? (it-1 pág. 46–pág. 47 párr. 1)</div>
 						</li>
 
 						<li class="list-item emt-item">
-							<h4>Semana del 24 de Febrero</h4>
+							<h4>Semana del 4 de Agosto</h4>
 
-							<div class="asignacion"><b>Puntos sobresalientes:</b> Carlos Cabrera</div>
-							<div class="info">Génesis 32 a 35</div>
-							<div class="asignacion"><b>Repaso Oral</b></div>
+							<div class="sala">Sala Principal</div>
+							<div class="asignacion"><b>Puntos sobresalientes:</b> Iván Rivero</div>
+							<div class="info">Números 4 a 6</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Erick Garat</div>
+							<div class="info">Números 4:17-33</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Giannina Paolino - Leticia Rodríguez</div>
+							<div class="info">¿Enseña la Biblia que algunas personas nunca se salvarán? (rs pág. 342 párrs. 1-3)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Rubens Rivero</div>
+							<div class="info">Acusación. Jehová está por encima de las leyes injustas y juzga a quienes hacen acusaciones falsas (it-1 pág. 47 párrs. 2, 3)</div>
+
+							<div class="sala">Sala Auxiliar</div>
+							<div class="asignacion"><b>Asignación Nº1:</b> Ariel Fuentes</div>
+							<div class="info">Números 4:17-33</div>
+							<div class="asignacion"><b>Asignación Nº2:</b> Jennifer de Téliz - Rossana de Sandes</div>
+							<div class="info">¿Enseña la Biblia que algunas personas nunca se salvarán? (rs pág. 342 párrs. 1-3)</div>
+							<div class="asignacion"><b>Asignación Nº3:</b> Marcelo Paolino</div>
+							<div class="info">Acusación. Jehová está por encima de las leyes injustas y juzga a quienes hacen acusaciones falsas (it-1 pág. 47 párrs. 2, 3)</div>
 						</li>
 					</ul>
 				</div>
