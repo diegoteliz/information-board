@@ -123,22 +123,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-07-01','2014-07-01','2014-07-02','2014-07-02','2014-07-04','2014-07-05','2014-07-05','2014-07-05','2014-07-06','2014-07-07','2014-07-08','2014-07-08','2014-07-09','2014-07-09','2014-07-11','2014-07-12','2014-07-12','2014-07-14','2014-07-15','2014-07-15','2014-07-16','2014-07-16','2014-07-18','2014-07-19','2014-07-19','2014-07-20','2014-07-21','2014-07-22','2014-07-23','2014-07-23','2014-07-24','2014-07-25','2014-07-26','2014-07-26','2014-07-28','2014-07-29','2014-07-29','2014-07-30','2014-07-30'
+				'2014-08-01','2014-08-02','2014-08-02','2014-08-02','2014-08-03','2014-08-04','2014-08-05','2014-08-05','2014-08-06','2014-08-06','2014-08-08','2014-08-09','2014-08-09','2014-08-11','2014-08-12','2014-08-12','2014-08-13','2014-08-13','2014-08-15','2014-08-16','2014-08-16','2014-08-17','2014-08-18','2014-08-19','2014-08-19','2014-08-20','2014-08-20','2014-08-22','2014-08-23','2014-08-23','2014-08-25','2014-08-26','2014-08-26','2014-08-27','2014-08-27','2014-08-29','2014-08-30'
 			),
 
 			// Time column
 			'time' => array(
-				'9:30','15:00','9:30','15:00','15:00','9:30','15:00','15:00','11:00','16:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','16:00','9:30','15:00','9:30','15:00','15:00','9:30','15:00','11:00','16:00','9:30','9:30','15:00','9:30','9:30','9:30','15:00','16:00','9:30','15:00','9:30','15:00'
+				'15:00','09:30','15:00','15:00','11:15','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','11:15','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','16:00','09:30','15:00','09:30','15:00','15:00','-'
 			), 
 
 			// Location column
 			'location' => array(
-				'Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Familia Rivero','Casa de Rosa Giménez','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Familia Navarro','Familia Fuentes','A confirmar','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Familia Navarro','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rodríguez','Familia Rivero','Casa de Blanca Pereira','Casa de Rosa Giménez','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino'
+				'Casa de Blanca Pereira','Barra Santa Lucía','Familia Navarro','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Familia Fuentes','-','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Barra Santa Lucía','Familia Rivero','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Salón del Reino','Barra Santa Lucía','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Prediación en Mígues'
 			),
 			
 			// Responsible column
 			'responsible' => array(
-				'Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Germán Demarco','Carlos Cabrera','Luis Sandes','Leonardo Guevara','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Michel Fuentes','A confirmar','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Diego Téliz','Leonardo Guevara','Michel Fuentes','Ricardo Rodríguez','Humberto Cardozo','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Daniel Delorrio','Ricardo Rodríguez','Humberto Cardozo','Osvaldo Simone','Carlos Cabrera','Rubens Rivero'
+				'Leonel Navarro','Germán Demarco','Michel Fuentes','Carlos Cabrera','Leonardo Guevara','Ricardo Rodríguez','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Michel Fuentes','-','Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Carlos Cabrera','Rubens Rivero','Diego Téliz','Ricardo Rodríguez','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Diego Téliz','Luis Sandes','Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','-'
 			)
 		);
 
