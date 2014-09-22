@@ -123,22 +123,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-08-01','2014-08-02','2014-08-02','2014-08-02','2014-08-03','2014-08-04','2014-08-05','2014-08-05','2014-08-06','2014-08-06','2014-08-08','2014-08-09','2014-08-09','2014-08-11','2014-08-12','2014-08-12','2014-08-13','2014-08-13','2014-08-15','2014-08-16','2014-08-16','2014-08-17','2014-08-18','2014-08-19','2014-08-19','2014-08-20','2014-08-20','2014-08-22','2014-08-23','2014-08-23','2014-08-25','2014-08-26','2014-08-26','2014-08-27','2014-08-27','2014-08-29','2014-08-30'
+				'2014-09-15','2014-09-16','2014-09-16','2014-09-17','2014-09-17','2014-09-19','2014-09-20','2014-09-20','2014-09-21','2014-09-22','2014-09-23','2014-09-23','2014-09-24','2014-09-24','2014-09-26','2014-09-27','2014-09-27','2014-09-29','2014-09-30','2014-09-30'
 			),
 
 			// Time column
 			'time' => array(
-				'15:00','09:30','15:00','15:00','11:15','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','11:15','16:00','09:30','15:00','09:30','15:00','15:00','09:30','15:00','16:00','09:30','15:00','09:30','15:00','15:00','-'
+				'16:00','09:30','16:00','09:30','16:00','16:00','09:30','16:00','11:00','16:00','09:30','16:00','09:30','16:00','16:00','09:30','16:00','16:00','09:30','16:00'
 			), 
 
 			// Location column
 			'location' => array(
-				'Casa de Blanca Pereira','Barra Santa Lucía','Familia Navarro','Salón del Reino','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Familia Fuentes','-','Familia Rodríguez','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Barra Santa Lucía','Familia Rivero','Salón del Reino','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Salón del Reino','Barra Santa Lucía','Familia Rodríguez','Salón del Reino','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Prediación en Mígues'
+				'Familia Rivero','Salón del Reino','Familia Rivero','Salón del Reino','Familia Rivero','Casa de Blanca Pereira','Salón del Reino','Casa de Rosa Giménez','Salón del Reino','Familia Rodríguez','Barra Santa Lucía','Familia Rivero','Familia Rivero','Salón del Reino','Casa de Blanca Pereira','Salón del Reino','Familia Rivero','Familia Rodríguez','Barra Santa Lucía','Salón del Reino'
 			),
 			
 			// Responsible column
 			'responsible' => array(
-				'Leonel Navarro','Germán Demarco','Michel Fuentes','Carlos Cabrera','Leonardo Guevara','Ricardo Rodríguez','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Michel Fuentes','-','Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Carlos Cabrera','Rubens Rivero','Diego Téliz','Ricardo Rodríguez','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Diego Téliz','Luis Sandes','Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','-'
+				'Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Diego Téliz','Carlos Cabrera','Ricardo Rodríguez','Osvaldo Simone','Humberto Cardozo','-','Carlos Cabrera','Rubens Rivero','Leonel Navarro','Carlos Cabrera','Luis Sandes','Ricardo Rodríguez','Humberto Cardozo','Rubens Rivero'
 			)
 		);
 
@@ -152,22 +152,22 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-07-03','2014-07-06','2014-07-10','2014-07-13','2014-07-17','2014-07-20','2014-07-24','2014-07-27','2014-07-31','2014-08-03','2014-08-07','2014-08-10','2014-08-14','2014-08-17','2014-08-21','2014-08-24','2014-08-28','2014-08-31','2014-09-04','2014-09-07'
+				'2014-09-14','2014-09-18','2014-09-21','2014-09-25','2014-09-28','2014-10-02','2014-10-05','2014-10-09','2014-10-12','2014-10-16','2014-10-19','2014-10-23','2014-10-26','2014-10-30','2014-11-02','2014-11-06','2014-11-09','2014-11-13','2014-11-16'
 			),
 
 			// Group id
 			'group_id' => array(
-				'1','1','2','2','3','3','4','4','5','5','1','1','2','2','3','3','4','4','5','5'
+				'1','2','2','3','3','4','4','5','5','1','1','2','2','3','3','4','4','5','5'
 			), 
 
 			// Group name
 			'group_name' => array(
-				'Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5'
+				'Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5','Grupo Nº1','Grupo Nº1','Grupo Nº2','Grupo Nº2','Grupo Nº3','Grupo Nº3','Grupo Nº4','Grupo Nº4','Grupo Nº5','Grupo Nº5'
 			),
 			
 			// Responsible group
 			'responsible' => array(
-				'Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara'
+				'Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara','Leonel Navarro','Leonel Navarro','Carlos Cabrera','Carlos Cabrera','Luis Sandes','Luis Sandes','Michel Fuentes','Michel Fuentes','Leonardo Guevara','Leonardo Guevara'
 			)
 		);
 
@@ -181,32 +181,32 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-07-06','2014-07-10','2014-07-13','2014-07-17','2014-07-20','2014-07-24','2014-07-27','2014-07-31','2014-08-03','2014-08-07','2014-08-10','2014-08-14','2014-08-17','2014-08-21','2014-08-24','2014-08-28','2014-08-31'
+				'2014-09-14','2014-09-18','2014-09-21','2014-09-25','2014-09-28','2014-10-02','2014-10-05','2014-10-09','2014-10-12','2014-10-16','2014-10-19','2014-10-23','2014-10-26','2014-10-30','2014-11-02','2014-11-06','2014-11-09','2014-11-13','2014-11-16'
 			),
 
 			// Equipment column
 			'equipment'	=> array(
-				'Diego','Iván','Rubens','Humberto','Iván','Germán','Diego','Humberto','Rubens','Germán','Iván','Rubens','Diego','Iván','Germán','Diego','Humberto'
+				'Rubens','Humberto','Iván','Germán','Diego','Humberto','Rubens','Germán','Iván','Rubens','Diego','Iván','Germán','Diego','Humberto','Diego','Iván','Rubens','Humberto'
 			),
 
 			// Microphone 1 column
 			'mic1' => array(
-				'Germán','Humberto','Germán','Carlos','Osvaldo','Marcelo','Ariel','Carlos','Marcelo','Diego','Carlos','Germán','Ariel','Carlos','Leonardo','Geremías','Ariel'
+				'Germán','Carlos','Osvaldo','Marcelo','Ariel','Carlos','Marcelo','Diego','Carlos','Germán','Ariel','Carlos','Leonardo','Geremías','Ariel','Germán','Humberto','Germán','Carlos'
 			), 
 
 			// Microphone 2 column
 			'mic2' => array(
-				'Ricardo','Rubens','Iván','Ariel','Geremías','Diego','Germán','Leonardo','Humberto','Ariel','Geremías','Marcelo','Osvaldo','Humberto','Diego','Marcelo','Leonardo'
+				'Iván','Ariel','Geremías','Diego','Germán','Leonardo','Humberto','Ariel','Geremías','Marcelo','Osvaldo','Humberto','Diego','Marcelo','Leonardo','Ricardo','Rubens','Iván','Ariel'
 			),
 
 			// Platform column
 			'platform' => array(
-				'Marcelo','Germán','Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Luis','Marcelo','Diego','Iván','Germán','Iván'
+				'Diego','Luis','Marcelo','Ricardo','Iván','Diego','Germán','Luis','Ricardo','Luis','Marcelo','Diego','Iván','Germán','Iván','Marcelo','Germán','Diego','Luis'
 			),
 			
 			// Ushers column
 			'usher' => array(
-				'Michel','Diego','Leonel','Leonardo','Ricardo','Humberto','Osvaldo','Germán','Osvaldo','Michel','Diego','Leonel','Leonardo','Ricardo','Humberto','Osvaldo','Germán'
+				'Leonel','Leonardo','Ricardo','Humberto','Osvaldo','Germán','Osvaldo','Michel','Diego','Leonel','Leonardo','Ricardo','Humberto','Osvaldo','Germán','Michel','Diego','Leonel','Leonardo'
 			)
 		);
 
@@ -254,27 +254,27 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-06-08','2014-06-15','2014-06-22','2014-06-29','2014-07-06','2014-07-13','2014-07-20','2014-07-27','2014-08-03','2014-08-10','2014-08-17','2014-08-24','2014-08-31','2014-09-07','2014-09-14','2014-09-21'
+				'2014-09-21','2014-09-28','2014-10-05','2014-10-12','2014-10-19','2014-10-26','2014-11-02','2014-11-09','2014-11-16','2014-11-23','2014-11-30','2014-12-07','2014-12-14','2014-12-21','2014-12-28'
 			),
 
 			// Equipment column
 			'president'	=> array(
-				'Iván Rivero','Leonardo Guevara','Carlos Cabrera','Rubens Rivero','Iván Rivero','Michel Fuentes','Carlos Cabrera','Germán Demarco','Leonel Navarro','Rubens Rivero','Iván Rivero','Carlos Cabrera','Leonardo Guevara','Michel Fuentes','Rubens Rivero','Leonel Navarro'
+				'Leonel Navarro','Germán Demarco','Iván Rivero','Michel Fuentes','Ricardo Rodríguez','Leonardo Guevara','Carlos Cabrera','Rubens Rivero','Iván Rivero','Ricardo Rodríguez','Leonel Navarro','Michel Fuentes','Germán Demarco','Leonardo Guevara','Iván Rivero'
 			),
 
 			// Microphone 1 column
 			'topic' => array(
-				'¿Realmente hace usted de Jehová su plaza fuerte?','¿Cómo se puede ser feliz a pesar de tener hambre?','Andemos en el camino de la integridad','Edifique su fe en el Hacedor del hombre','-','Una congregación leal bajo la dirección de Cristo','Que todo cuanto tengamos glorifique a Dios','Sirvamos con la organización unificada de Jehová','¿Cómo puede usted colaborar con el Reino de Dios?','El tiempo de juicio para la religión','Permanezcamos sin culpa en medio de una generación torcida','¿Es esta vida todo cuanto hay?','Jehová, el Magnífico Creador','Aprecie las maravillas de la creación de Dios','Liberados de un mundo de oscuridad','Utilice la educación para alabar a Jehová'
+				'Liberados de un mundo de oscuridad','Utilice la educación para alabar a Jehová','Padres, ¿están edificando con materiales incombustibles?','Cómo protegernos de las trampas de Satanás','¿Por qué temer al Dios verdadero?','¿Qué logra la curación de las naciones?','El mundo que nos rodea prueba que Dios existe','Conduciéndonos honradamente en todo tiempo','¿Qué clase de nombre se está haciendo con Dios?','Obren prudentemente a medida que se acerca el fin','Buenas nuevas en un mundo violento','Nunca se haga embotado en su oír','Cifre su confianza en Jehová','Como hallar honra y gozo en el ministerio de Dios','¿Cómo debemos servir a Dios?'
 			), 
 
 			// Microphone 2 column
 			'speaker' => array(
-				'Marcelo Mariño','Alejandro Roldán','Manuel Rollón','Miguel Herbig','Claudio Breijo','J. C. L.','Jorge M.','Freddy M.','L. Olivera','Luis Benítez','M. Rodríguez','Gustavo C.','Alex Vlaemihok','Jorge Rocha','Ricardo Molina','Cristian B.'
+				'Cristian Barajiola','Raúl Rocha','Daniel Saravia','Leonardo Etchevarría','Freddy Hunderwaredt','Luis Tedros','J. Carlos Scarpelli','Pablo Fernández','Nelson Lerma','Daniel Suanes','Exequiel González','Arturo Texeira','Martín Uriarte','Miguel Braga','Ricardo Barboza'
 			),
 			
 			// Ushers column
 			'congregation' => array(
-				'Paso de la Arena','Paso de la Arena','Paso de la Arena','Paso de la Arena','-','Playa Pascual','Playa Pascual','Playa Pascual','Playa Pascual','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata','Ciudad del Plata'
+				'Ciudad del Plata','Ciudad del Plata','La Paz','La Paz','La Paz','La Paz','Pinar Norte','Pinar Norte','Paso de la Arena','Nuevo París','Nuevo París','Nuevo París','Nuevo París','Nuevo París','Nuevo París'
 			)
 		);
 
@@ -288,77 +288,77 @@ class billboard {
 
 			// Date column
 			'date' => array(
-				'2014-07-07','2014-07-14','2014-07-21','2014-07-28','2014-08-04','2014-08-11','2014-08-18','2014-08-25','2014-09-01'
+				'2014-09-22','2014-09-29','2014-10-06','2014-10-13','2014-10-20','2014-10-27','2014-11-03'
 			),
 
 			// Start Prayer
 			'start_prayer' => array(
-				'Osvaldo Simone','Germán Demarco','Geremías Fuentes','Rubens Rivero','Marcelo Paolino','Ricardo Rodríguez','Leonel Navarro','Iván Rivero','Carlos Cabrera'
+				'Carlos Cabrera','Marcelo Paolino','Michel Fuentes','Ricardo Rodríguez','Luis Sandes','Ricardo Rodríguez','Carlos Cabrera'
 			), 
 
 			// End Prayer
 			'end_prayer' => array(
-				'Luis Sandes','Iván Rivero','Humberto Cardozo','Diego Téliz','Michel Fuentes','Leonardo Guevara','Luis Sandes','Rubens Rivero','Osvaldo Simone'
+				'Michel Fuentes','Germán Demarco','Diego Téliz','Leonardo Guevara','Leonel Navarro','Rubens Rivero','Osvaldo Simone'
 			),
 			
 			// CBS Speaker
 			'cbs_speaker' => array(
-				'Germán Demarco','Iván Rivero','Michel Fuentes','Leonel Navarro','Germán Demarco','Carlos Cabrera','Rubens Rivero','Germán Demarco','Iván Rivero'
+				'Iván Rivero','Michel Fuentes','Rubens Rivero','Michel Fuentes','Leonel Navarro','Leonardo Guevara','Rubens Rivero'
 			),
 			
 			// CBS Lector
 			'cbs_lector' => array(
-				'Humberto Cardozo','Diego Téliz','Humberto Cardozo','Marcelo Paolino','Ricardo Rodríguez','Diego Téliz','Humberto Cardozo','Marcelo Paolino','Ricardo Rodríguez'
+				'Marcelo Paolino','Rubens Rivero','Humberto Cardozo','Marcelo Paolino','Diego Téliz','Humberto Cardozo','Marcelo Paolino'
 			),
 			
 			// CBS Info
 			'cbs_info' => array(
-				'cl cap. 9 párrs. 21-24','cl cap. 10 párrs. 1-7','cl cap. 10 párrs. 8-17','cl cap. 10 párrs. 18-21 y recuadro de la pág. 106','cl cap. 11 párrs. 1-8','cl cap. 11 párrs. 9-16','cl cap. 11 párrs. 17-22 y recuadro de la pág. 116','cl cap. 12 párrs. 1-8','cl cap. 12 párrs. 9-15'
+				'cl cap. 13 párrs. 11-18','cl cap. 13 párrs. 19-23 y recuadro de la pág. 137','cl cap. 14 párrs. 1-9','cl cap. 14 párrs. 10-15','cl cap. 14 párrs. 16-20 y recuadro de la pág. 147','cl cap. 15 párrs. 1-10','cl cap. 15 párrs. 11-19'
 			),
 			
 			// SM Min 1
 			'sm_min_1' => array(
-				'10','10','10','10','10','5','15','5','10'
+				'15','10','10','5','15','15','10'
 			),
 			
 			// SM Speaker 1
 			'sm_speaker_1' => array(
-				'Rubens Rivero','Germán Demarco','Ricardo Rodríguez','Iván Rivero','Leonardo Guevara','Ricardo Rodríguez','Leonardo Guevara','Leonel Navarro','Germán Demarco'
+				'Rubens Rivero','Ricardo Rodríguez','Carlos Cabrera','Luis Sandes','Rubens Rivero','Germán Demarco','Ricardo Rodríguez'
 			),
 			
 			// SM Info 1
 			'sm_info_1' => array(
-				'Ideas para ofrecer las revistas en julio.','¿Estamos listos para la campaña especial de agosto?','Se nos respeta por nuestra buena conducta y neutralidad cristiana.','¿Estás preparado para afrontar los desafíos en la escuela?','Ideas para ofrecer las revistas en agosto.','“1914-2014: cien años de gobierno del Reino.”','“Un siglo anunciando el Reino.” (Primera parte.)','Experiencias de la congregación.','Ideas para ofrecer las revistas en septiembre.'
+				'La enriquecedora vida de los misioneros','Cómo iniciar estudios bíblicos el primer sábado del mes.','Ideas para ofrecer las revistas en octubre.','¿Qué significa predicar con urgencia?','“Cómo explicar nuestras creencias sobre 1914.”','“Cómo cultivar el sentido de urgencia en la predicación.”','Ayudemos a los niños a prepararse para la predicación.'
 			),
 			
 			// SM Min 2
 			'sm_min_2' => array(
-				'10','5','10','10','10','10','15','10','10'
+				'15','10','10','10','15','15','10'
 			),
 			
 			// SM Speaker 2
 			'sm_speaker_2' => array(
-				'Leonardo Guevara','Leonel Navarro','Rubens Rivero','Luis Sandes','Luis Sandes','Iván Rivero','Leonel Navarro','Carlos Cabrera','Rubens Rivero'
+				'Luis Sandes','Iván Rivero','Leonel Navarro','Leonardo Guevara','Carlos Cabrera','Iván Rivero','Carlos Cabrera'
 			),
 			
 			// SM Info 2
 			'sm_info_2' => array(
-				'Necesidades de la congregación.','Sáquele provecho al folleto Examinando las Escrituras diariamente.','¿Hará el precursorado auxiliar en agosto?','Entrevista al secretario.','Necesidades de la congregación.','“Usemos el nuevo tratado Visite jw.org.”','“Un siglo anunciando el Reino.” (Segunda parte.)','Explique el Reino (primera parte).','¿Cómo nos fue?'
+				'“Usemos jw.org en el ministerio.”','¿Cuál es la lección?','Necesidades de la congregación.','¿Por qué es urgente nuestra predicación?','Ayuda para explicar nuestras creencias sobre 1914.','Preparémonos bien para predicar con sentido de urgencia.','Cómo predican la Palabra con sentido de urgencia.'
 			),
 			
 			// SM Min 3
 			'sm_min_3' => array(
-				'10','15','10','10','10','15','','15','10'
+				'','10','10','15','','','10'
 			),
 			
 			// SM Speaker 3
 			'sm_speaker_3' => array(
-				'Leonel Navarro','Carlos Cabrera','Leonardo Guevara','Michel Fuentes','Carlos Cabrera','Michel Fuentes','','Michel Fuentes','Leonardo Guevara'
+				'','Leonardo Guevara','Germán Demarco','Leonel Navarro','','','Michel Fuentes'
 			),
 			
 			// SM Info 3
 			'sm_info_3' => array(
-				'¿Qué hemos logrado?','“Mejore sus habilidades en el ministerio: empiece conversaciones para dar testimonio informal.”','¿Cómo me ve Jehová?','“Tomen por modelo a los profetas: Sofonías.”','¿Cómo nos fue?','“Mejore sus habilidades en el ministerio: hable del Reino con valor y convicción.”','','Explique el Reino (segunda parte).','Informe sobre la campaña especial.'
+				'','Entrevista al coordinador del cuerpo de ancianos.','¿Cómo nos fue?','“Aproveche las oportunidades que usted tiene de hablar del Reino.”','','','¿Ha mejorado sus habilidades?'
 			)
 			
 		);
