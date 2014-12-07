@@ -9,34 +9,28 @@ include_once('class/class.billboard.php'); ?>
 				</header>
 				<div class="wrapper">
 					<ul class="list">
-						<!-- <li class="list-item">
-							<h4>Predicación en Mígues</h4>
-							<p>El <b>Sábado 14 de Septiembre</b> tendremos la oportunidad de participar de un día entero de predicación en la ciudad de Mígues.</p>
-						</li> -->
+
 						<li class="list-item">
-							<h4>Julio</h4>
-							<p>Las publicaciones que se ofrecerán en Julio son: 
-								<i>Buenas noticias de parte de Dios</i> o cualquiera de los siguientes folletos de 32 páginas: 
-								<i>Cuando muere un ser querido</i> y 
-								<i>¿Qué propósito tiene la vida? ¿Cómo descubrirlo?</i>
+							<h4>Diciembre</h4>
+							<p>Las publicaciones que se ofrecerán en Diciembre son: 
+								<i>¿Qué enseña realmente La Biblia?</i> o uno de los siguientes tratados <i>¿Cómo ve el futuro?, ¿Qué hace falta para ser una familia feliz?</i> y <i>¿Será posible que los muertos vuelvan a vivir?</i>
 							</p>
 						</li>
+
 						<li class="list-item">
-							<h4>Visita del Superintendente</h4>
-							<p>Del 22 al 27 de Julio nos visitará el hermano Daniel Delorrio junto a su esposa Patricia.</p>
-						</li>
-						<li class="list-item">
-							<h4>Agosto</h4>
-							<p>Campaña especial de distribución del nuevo tratado titulado
-								<i>¿Dónde hallar respuestas a las grandes cuestiones de la vida?</i>
+							<h4>Enero y Febrero</h4>
+							<p>Las publicaciones que se ofrecerán en Enero y Febrero son: 
+								<i>Buenas noticias de parte de Dios</i> o cualquiera de los siguientes folletos de 32 páginas: <i>Cómo lograr una vida llena de satisfacción</i> o <i>Podemos ser amigos de Dios.</i>
 							</p>
 						</li>
+
 						<li class="list-item">
-							<h4>Septiembre y Octubre</h4>
-							<p>Las publicaciones que se ofrecerán en Septiembre y Octubre son: 
+							<h4>Marzo y Abril</h4>
+							<p>Las publicaciones que se ofrecerán en Marzo y Abril son: 
 								<i>La Atalaya</i> y <i>¡Despertad!</i>
 							</p>
 						</li>
+
 					</ul>
 				</div>
 			</section>

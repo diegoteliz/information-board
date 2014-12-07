@@ -57,6 +57,7 @@ $listado = $cartelera->cbs_service_meeting(); ?>
 							<div class="asignacion"><b><?php echo $sm_min_3; ?> min:</b> <?php echo $sm_speaker_3; ?></div>
 							<div class="info"><?php echo $sm_info_3; ?></div>	
 							<?php endif ?>
+							<div class="asignacion"><b>Oración de conclusión:</b> <?php echo $end_prayer; ?></div>
 							
 						</li>
 						<?php 

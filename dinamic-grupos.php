@@ -29,7 +29,7 @@ $listado = $cartelera->preaching_groups(); ?>
 						</li>
 						<?php 
 						} ?>
-						<li style="padding:20px 25px 0"><a style="color:#0072C5;font:400 1.1em 'Open Sans',sans-serif" href="/downloads/grupos_bw.jpg" target="_blank">Versión para imprimir</a></li>
+						<li style="padding:20px 25px 0"><a style="color:#0072C5;font:400 1.1em 'Open Sans',sans-serif" href="/downloads/grupos.jpg" target="_blank">Versión para imprimir</a></li>
 					</ul>
 				</div>
 			</section>
