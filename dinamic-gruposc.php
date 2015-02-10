@@ -21,7 +21,7 @@ include_once('class/class.billboard.php');  ?>
 									<li class="member-item">Germán Demarco</li>
 									<li class="member-item">Fabiana de Demarco</li>
 									<li class="member-item">Susana de Echeveste</li>
-									<li class="member-item">Blanca Gordiola</li>
+									<li class="member-item">Teresa de Figueredo</li>
 									<li class="member-item">Leonel Navarro</li>
 									<li class="member-item">Mirtha de Navarro</li>
 									<li class="member-item">Jael Oviedo</li>
@@ -30,6 +30,8 @@ include_once('class/class.billboard.php');  ?>
 									<li class="member-item">Natalia de Paolino</li>
 									<li class="member-item">Giannina Paolino</li>
 									<li class="member-item">Dante Paolino</li>
+									<li class="member-item">Ariel Suárez</li>
+									<li class="member-item">Rosa Giménez</li>
 								</ul>
 							</div>
 						</div>
@@ -38,7 +40,7 @@ include_once('class/class.billboard.php');  ?>
 							<div id="group2-members" class="members-list">
 								<p class="responsibles">
 									<b>Superintendente:</b> Carlos Cabrera<br />
-									<b>Auxiliar:</b> Humberto Cardozo 
+									<b>Auxiliar:</b> Iván Rivero 
 								</p>
 								<ul class="list">
 									<li class="member-item">Carlos Cabrera</li>
@@ -54,6 +56,9 @@ include_once('class/class.billboard.php');  ?>
 									<li class="member-item">Osvaldo Simone</li>
 									<li class="member-item">Esther de Simone</li>
 									<li class="member-item">Liana de Sosa</li>
+									<li class="member-item">Iván Rivero</li>
+									<li class="member-item">Yanela Rivero</li>
+									<li class="member-item">Norma Siliverti</li>
 								</ul>
 							</div>
 						</div>
@@ -67,14 +72,16 @@ include_once('class/class.billboard.php');  ?>
 								<ul class="list">
 									<li class="member-item">Dora de Cardozo</li>
 									<li class="member-item">Lilian López</li>
+									<li class="member-item">Carolina Giménez</li>
 									<li class="member-item">Blanca Pereira</li>
 									<li class="member-item">Daycir Viana</li>
 									<li class="member-item">Isabel Rivero</li>
+									<li class="member-item">Analía Rodríguez</li>
 									<li class="member-item">Ricardo Rodríguez</li>
 									<li class="member-item">Fanny de Rodríguez</li>
 									<li class="member-item">Leticia Rodríguez</li>
 									<li class="member-item">Fiorella Rodriguez</li>
-									<li class="member-item">Angélica Sensever</li>
+									<li class="member-item">Angélica Senceber</li>
 									<li class="member-item">Luis Sandes</li>
 									<li class="member-item">Rossana de Sandes</li>
 									<li class="member-item">Micaela Sandes</li>
@@ -85,31 +92,6 @@ include_once('class/class.billboard.php');  ?>
 							<h3 class="groupc-header"><a href="#group4-members">Grupo Nº4</a></h3>
 							<div id="group4-members" class="members-list">
 								<p class="responsibles">
-									<b>Superintendente:</b> Michel Fuentes<br />
-									<b>Auxiliar:</b> Iván Rivero
-								</p>
-								<ul class="list">
-									<li class="member-item">Alicia Begeres</li>
-									<li class="member-item">Teresa de Figueredo</li>
-									<li class="member-item">Sonia Fontora</li>
-									<li class="member-item">Michel Fuentes</li>
-									<li class="member-item">Gladys de Fuentes</li>
-									<li class="member-item">Geremías Fuentes</li>
-									<li class="member-item">Ariel Fuentes</li>
-									<li class="member-item">Carolina Giménez</li>
-									<li class="member-item">Rosa Giménez</li>
-									<li class="member-item">Ariel Suárez</li>
-									<li class="member-item">Analía Rodríguez</li>
-									<li class="member-item">Iván Rivero</li>
-									<li class="member-item">Yanela Rivero</li>
-									<li class="member-item">Norma Siliverti</li>
-								</ul>
-							</div>
-						</div>
-						<div id="group5">
-							<h3 class="groupc-header"><a href="#group5-members">Grupo Nº5</a></h3>
-							<div id="group5-members" class="members-list">
-								<p class="responsibles">
 									<b>Superintendente:</b> Leonardo Guevara<br />
 									<b>Auxiliar:</b> Rubens Rivero 
 								</p>
@@ -117,11 +99,16 @@ include_once('class/class.billboard.php');  ?>
 									<li class="member-item">Mónica Estrada</li>
 									<li class="member-item">Nélida De los Santos</li>
 									<li class="member-item">Myriam Fontes</li>
+									<li class="member-item">Michel Fuentes</li>
+									<li class="member-item">Gladys de Fuentes</li>
+									<li class="member-item">Geremías Fuentes</li>
+									<li class="member-item">Ariel Fuentes</li>
 									<li class="member-item">Leonardo Guevara</li>
 									<li class="member-item">Claudia de Guevara</li>
 									<li class="member-item">Rubens Rivero</li>
 									<li class="member-item">Luci de Rivero</li>
 									<li class="member-item">María Ester Peleteiro</li>
+									<li class="member-item">Isabel Techera</li>
 									<li class="member-item">Rosario Telechea</li>
 									<li class="member-item">Florencia Telechea</li>
 									<li class="member-item">Diego Téliz</li>
