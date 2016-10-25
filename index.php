@@ -13,14 +13,10 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 	<head>
 		<!-- Metatags -->
 		<meta charset="UTF-8" />
-		<meta name="description" content="Cartelera de anuncios online de la congregación Delta del Tigre, San José, Uruguay." />
+		<meta name="description" content="JW Assistant - Congregation tasks in the easiest way." />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-		<!-- Windows 8 icon -->
-		<meta name="msapplication-TileColor" content="#D96D00"/>
-		<meta name="msapplication-TileImage" content="/img/billboard-logo.png"/>
-
-		<title>Delta del Tigre</title>
+		<title>JW Assistant</title>
+		
 		<!--
         /*******************************************************
         ***************  Copyright © 2013 - JW.uy  *************
@@ -29,17 +25,215 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
         *******************************************************/
         -->
 
-		<!-- CSS, Fonts & Icon-->
-		<link rel="stylesheet" type="text/css" href="/style.css"  />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic|Quicksand:400,300' rel='stylesheet' type='text/css'>
-		<link rel="icon" href="img/favicon.ico" sizes="16x16" type="image/x-icon" />
+		<!-- Styles-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		
+		<style>
+			
+			/* Reset */
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, figure, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, font, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td {
+				border: 0;
+				font-family: inherit;
+				font-size: 100%;
+				font-style: inherit;
+				font-weight: inherit;
+				margin: 0;
+				outline: 0;
+				padding: 0;
+				vertical-align: baseline;
+			}
+			:focus {
+				outline: 0;
+			}
+			body {
+				background: #FFF;
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			table {
+				border-collapse: separate;
+				border-spacing: 0;
+			}
+			caption, th, td {
+				font-weight: normal;
+				text-align: left;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: "";
+			}
+			blockquote, q {
+				quotes: "" "";
+			}
+			a img {
+				border: 0;
+			}
+			article, aside, details, figcaption, figure,
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
 
-		<!-- Opera speed dial icon -->
-		<link rel="icon" type="image/png" href="/img/opera-speed-dial.png">
+			/* Temporary styles */
+			html {
+				height: 100%;
+			}
+			
+			body {
+				color: #111;
+				font: 16px 'Open Sans', sans-serif;
+				height: 100%;
+				-moz-osx-font-smoothing: grayscale;
+    			-webkit-font-smoothing: antialiased;
+			}
+
+			h1 {
+				color: #0072C6;
+				font-size: 2rem;
+				font-weight: 300;
+			}
+			@media only screen and (min-width: 340px) {
+				h1 {
+					font-size: 3rem;
+				}
+			}
+			@media only screen and (min-width: 512px) {
+				h1 {
+					font-size: 4rem;
+				}
+			}
+
+			h3 {
+				color: #0072C6;
+				font-size: 0.85rem;
+			}
+			@media only screen and (min-width: 340px) {
+				h3 {
+					font-size: 1rem;
+				}
+			}
+			@media only screen and (min-width: 512px) {
+				h3 {
+					font-size: 1.25rem;
+				}
+			}
+
+			a {
+				color: #aaa;
+				text-decoration: none;
+				-webkit-transition:all 0.2s ease;
+				transition:all 0.2s ease;
+			}
+
+			a:hover {
+				color: #0072C6;
+				-webkit-transition:all 0.2s ease;
+				transition:all 0.2s ease;
+			}
+
+			#dinamic-content {
+				height: 100%;
+				width: 100%;
+			}
+			
+			.wrapper {
+				box-sizing: border-box;
+				height: 100%;
+				margin: 0 auto;
+				padding: 0 20%;
+				position: relative;
+				width: 100%;
+			}
+			@media only screen and (min-width: 340px) {
+				.wrapper {
+					padding: 0 10%;
+				}
+			}
+			@media only screen and (min-width: 1024px) {
+				.wrapper {
+					width: 1024px;
+				}
+			}
+
+			.claim {
+				position: relative;
+				text-align: center;
+				top: 45%;
+				transform: translateY(-50%);
+			}
+
+			.info {
+				color: #aaa;
+				font-size: 0.75rem;
+				padding: 10px 0;
+			}
+			@media only screen and (min-width: 340px) {
+				.info {
+					font-size: 0.8rem;
+				}
+			}
+
+			/* Animations*/
+			@-webkit-keyframes resetTranslateY {
+				0% {
+				}
+				100% {
+					opacity: 1;
+					-webkit-transform: translateY(0);
+					transform: translateY(0);
+					visibility: visible;
+				}
+			}
+
+			@keyframes resetTranslateY {
+				0% {
+				}
+				100% {
+					opacity: 1;
+					-webkit-transform: translateY(0);
+					transform: translateY(0);
+					visibility: visible;
+				}
+			}
+
+			.animate-cascade-up-0,
+			.animate-cascade-up-1,
+			.animate-cascade-up-2 {
+				-webkit-animation: resetTranslateY 0.4s cubic-bezier(0.2, 1, 0.3, 1) 1s forwards;
+				animation: resetTranslateY 0.6s cubic-bezier(0.2, 1, 0.3, 1) 1s forwards;
+				opacity: 0;
+    			visibility: hidden;
+    			-webkit-transform: translateY(20px);
+				transform: translateY(20px);
+			}
+
+			.animate-cascade-up-0 {
+				-webkit-animation-delay: 0.05s;
+				animation-delay: 0.05s;
+			}
+
+			.animate-cascade-up-1 {
+				-webkit-animation-delay: 0.44s;
+				animation-delay: 0.44s;
+			}
+
+			.animate-cascade-up-2 {
+				-webkit-animation-delay: 0.58s;
+				animation-delay: 0.58s;
+			}
+		
+		</style>
 
 		<!-- Scripts -->
 		<script type="text/javascript" src="/js/jquery.js"></script>
-		<script type="text/javascript" src="/js/jquery-ui.js"></script>
 		<script type="text/javascript" src="/js/underscore.js"></script>
 		<script type="text/javascript" src="/js/backbone.js"></script>
 		<script type="text/javascript" src="/js/backbone.analytics.js"></script>
@@ -57,12 +251,17 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 
 	</head>
 	<body>
-		<div id="dinamic-content"><!-- Here load the content --></div>
+		<div id="dinamic-content">
+			<div class="wrapper">
+				<div class="claim">
+					<h1 class="animate-cascade-up-0">JW Assistant</h1>
+					<h3 class="animate-cascade-up-1">Congregation tasks in the easiest way</h3>
+					<p class="info animate-cascade-up-2"><a href="mailto:info@jw.uy">info@jw.uy</a></p>
+				</div>
+			</div>
+		</div>
 		<div id="dinamic-preloader"></div>
 		
-		<!-- Footer -->
-		<?php include_once 'footer.php'; ?>
-
 		<script type="text/javascript">
 
 		$(document).ready(function(){
@@ -75,37 +274,20 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 				},
 				render: function(page,title){
 
-					var page		= page;
-					var title		= title;
-					var content		= $('#dinamic-content');
-					var preloader	= $('#dinamic-preloader');
-
-					preloader.fadeIn(200);
-					content.fadeOut(600,function(){
-						$.ajax({
-							url: 'dinamic-'+page+'.php'
-						})
-						.done(function(data) {
-							$(document).attr('title',title);
-							content.html(data);
-							content.fadeIn(600);
-							preloader.fadeOut(200);
-					// 		//$('img').bind('load',function(){ // when all images are loaded -> this not working
-					// 			$('.menu ul li a').removeClass('active');
-					// 			if(page!='home'){
-					// 				$('.menu ul li a[href*='+page+']').addClass('active');
-					// 			}
-					// 			backgrounds.fadeIn(600);
-					// 			content.fadeIn(600);
-					// 			footer.fadeIn(600);
-					// 			preloader.fadeOut(200);
-					// 		//})
-						})
-						.fail(function(){
-							alert('an error occurred');
-						})
-						
-					});
+					var page	= page,
+						title	= title,
+						content	= $('#dinamic-content');
+					
+					$.ajax({
+						url: 'dinamic-'+page+'.php'
+					})
+					.done(function(data) {
+						$(document).attr('title',title);
+						content.html(data);
+					})
+					.fail(function(){
+						alert('an error occurred');
+					})
 					
 				},
 				remove: function(){
@@ -123,39 +305,7 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 			var AppRouter = Backbone.Router.extend({
 				routes: {
 					// Pages
-					''						: 'homePage',
-					'escuela'				: 'escuelaPage',
-					'grupos'				: 'gruposPage',
-					'reunion-servicio'		: 'rsPage',
-					'discurso'				: 'discursoPage',
-					'atalaya'				: 'atalayaPage',
-					'sonido'				: 'sonidoPage',
-					'limpieza'				: 'limpiezaPage',
-					'anuncios'				: 'anunciosPage',
-					'grupos-congregacion'	: 'gruposcPage',
-					// Redirects
-					'escuela-del-ministerio-teocratico'		: 'escuelaRedirect',
-					'emt'									: 'escuelaRedirect',
-					'g'										: 'gruposRedirect',
-					'estudio-biblico-y-reunion-de-servicio'	: 'rsRedirect',
-					'ebc'									: 'rsRedirect',
-					'rs'									: 'rsRedirect',
-					'ebc-rs'								: 'rsRedirect',
-					'discurso-publico'						: 'discursoRedirect',
-					'discurso-biblico'						: 'discursoRedirect',
-					'db'									: 'discursoRedirect',
-					'dp'									: 'discursoRedirect',
-					'estudio-de-la-atalaya'					: 'atalayaRedirect',
-					'ea'									: 'atalayaRedirect',
-					'sonido-y-acomodadores'					: 'sonidoRedirect',
-					'acomodadores'							: 'sonidoRedirect',
-					'sa'									: 'sonidoRedirect',
-					's'										: 'sonidoRedirect',
-					'programa-de-limpieza'					: 'limpiezaRedirect',
-					'l'										: 'limpiezaRedirect',
-					'grupos-de-congregacion'				: 'gruposcRedirect',
-					'gc'									: 'gruposcRedirect',
-					'a'										: 'anunciosRedirect',
+					''										: 'homePage',
 					// External Redirects
 					'informes/grupo-1'						: 'informes1Redirect',
 					'informes/grupo-2'						: 'informes2Redirect',
@@ -168,72 +318,8 @@ if ( preg_match( '/(?i)msie [1-7]/' , $_SERVER[ 'HTTP_USER_AGENT' ] ) ) {
 				
 				// Pages
 				homePage : function() {
-					var home = new dinamicView();
-					home.render('home', 'Delta del Tigre');
-				},
-				gruposPage : function() {
-					var grupos = new dinamicView();
-					grupos.render('grupos', 'Grupos de Predicación | Delta del Tigre');
-				},
-				gruposcPage : function() {
-					var gruposc = new dinamicView();
-					gruposc.render('gruposc', 'Grupos de Congregación | Delta del Tigre');
-				},
-				anunciosPage : function() {
-					var anuncios = new dinamicView();
-					anuncios.render('anuncios', 'Anuncios | Delta del Tigre');
-				},
-				limpiezaPage : function() {
-					var limpieza = new dinamicView();
-					limpieza.render('limpieza', 'Programa de Limpieza | Delta del Tigre');
-				},
-				sonidoPage : function() {
-					var sonido = new dinamicView();
-					sonido.render('sonido', 'Sonido y Acomodadores | Delta del Tigre');
-				},
-				escuelaPage : function() {
-					var escuela = new dinamicView();
-					escuela.render('escuela', 'Escuela del Ministerio Teocrático | Delta del Tigre');
-				},
-				rsPage : function() {
-					var rs = new dinamicView();
-					rs.render('rs', 'EBC y Reunión de Servicio | Delta del Tigre');
-				},
-				discursoPage : function() {
-					var discurso = new dinamicView();
-					discurso.render('discurso', 'Discurso Bíblico | Delta del Tigre');
-				},
-				atalayaPage : function() {
-					var atalaya = new dinamicView();
-					atalaya.render('atalaya', 'Estudio de la Atalaya | Delta del Tigre');
-				},
-				//Redirects
-				gruposRedirect : function() {
-					jwRouter.navigate('/grupos', {trigger:true});
-				},
-				gruposcRedirect : function() {
-					jwRouter.navigate('/grupos-congregacion', {trigger:true});
-				},
-				anunciosRedirect : function() {
-					jwRouter.navigate('/anuncios', {trigger:true});
-				},
-				limpiezaRedirect : function() {
-					jwRouter.navigate('/limpieza', {trigger:true});
-				},
-				escuelaRedirect : function() {
-					jwRouter.navigate('/escuela', {trigger:true});
-				},
-				rsRedirect : function() {
-					jwRouter.navigate('/reunion-servicio', {trigger:true});
-				},
-				discursoRedirect : function() {
-					jwRouter.navigate('/discurso', {trigger:true});
-				},
-				atalayaRedirect : function() {
-					jwRouter.navigate('/atalaya', {trigger:true});
-				},
-				sonidoRedirect : function() {
-					jwRouter.navigate('/sonido', {trigger:true});
+					//var home = new dinamicView();
+					//home.render('home', 'JW Assistant');
 				},
 				//External Redirects
 				informes1Redirect : function() {
